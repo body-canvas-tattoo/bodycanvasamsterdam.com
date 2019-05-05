@@ -1,67 +1,67 @@
 <!-- Home page -->
-<li {% if page.permalink == "{{ site.baseurl }}/" or page.permalink == "{{ site.baseurl }}" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+<li {% if page.permalink == "/" or page.permalink == "{{ site.baseurl }}" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
   <a class="nav-link" href="{{ site.baseurl }}/">Home
-    {% if page.permalink == "{{ site.baseurl }}/" or page.permalink == "" %}
+    {% if page.permalink == "/" or page.permalink == "" %}
     <span class="sr-only">(current)</span>
     {% endif %}
   </a>
 </li>
 <!-- About page -->
-<li {% if page.permalink == "{{ site.baseurl }}/about/" %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
+<li {% if page.permalink == "/about/" %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
   <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/about/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     About
   </a>
   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="{{ site.baseurl }}/about/">About me
-      {% if page.permalink == "{{ site.baseurl }}/about/" %}
+      {% if page.permalink == "/about/" %}
       <span class="sr-only">(current)</span>
       {% endif %}
     </a>
     <a class="dropdown-item" href="{{ site.baseurl }}/about/resume-cv/">Resume / CV
-      {% if page.permalink == "{{ site.baseurl }}/about/resume-cv/" %}
+      {% if page.permalink == "/about/resume-cv/" %}
       <span class="sr-only">(current)</span>
       {% endif %}
     </a>
   </div>
 </li>
 <!-- Portfolio page -->
-<li {% if page.permalink == "{{ site.baseurl }}/portfolio/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+<li {% if page.permalink == "/portfolio/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
   <a class="nav-link" href="{{ site.baseurl }}/portfolio/">Tattoo Portfolio
-    {% if page.permalink == "{{ site.baseurl }}/portfolio/" %}
+    {% if page.permalink == "/portfolio/" %}
     <span class="sr-only">(current)</span>
     {% endif %}
   </a>
 </li>
 <!-- Tattoo info page -->
-<li {% if page.permalink == "{{ site.baseurl }}/tattoo-information/consent-form/" or page.permalink == "{{ site.baseurl }}/tattoo-information/after-care/"  %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
+<li {% if page.permalink == "/tattoo-information/consent-form/" or page.permalink == "{{ site.baseurl }}/tattoo-information/after-care/"  %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
   <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/tattoo-information/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Tattoo information
   </a>
   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="{{ site.baseurl }}/tattoo-information/consent-form/">Consent Form
-      {% if page.permalink == "{{ site.baseurl }}/tattoo-information/consent-form/" %}
+      {% if page.permalink == "/tattoo-information/consent-form/" %}
       <span class="sr-only">(current)</span>
       {% endif %}
     </a>
     <a class="dropdown-item" href="{{ site.baseurl }}/tattoo-information/after-care/">After Care
-      {% if page.permalink == "{{ site.baseurl }}/tattoo-information/after-care/" %}
+      {% if page.permalink == "/tattoo-information/after-care/" %}
       <span class="sr-only">(current)</span>
       {% endif %}
     </a>
   </div>
 </li>
 <!-- Drawing & Digital page -->
-<li {% if page.permalink == "{{ site.baseurl }}/drawing-digital/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+<li {% if page.permalink == "/drawing-digital/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
   <a class="nav-link" href="{{ site.baseurl }}/drawing-digital/">Drawing & Digital
-    {% if page.permalink == "{{ site.baseurl }}/drawing-digital/" %}
+    {% if page.permalink == "/drawing-digital/" %}
     <span class="sr-only">(current)</span>
     {% endif %}
   </a>
 </li>
 <!-- Around the world page -->
-<li {% if page.permalink == "{{ site.baseurl }}/around-the-world/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+<li {% if page.permalink == "/around-the-world/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
   <a class="nav-link" href="{{ site.baseurl }}/around-the-world/">Around the world
-    {% if page.permalink == "{{ site.baseurl }}/around-the-world/" %}
+    {% if page.permalink == "/around-the-world/" %}
     <span class="sr-only">(current)</span>
     {% endif %}
   </a>
