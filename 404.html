@@ -1,0 +1,28 @@
+---
+title: 404
+subtitle: "PAGE NOT FOUND"
+layout: default
+permalink: /404.html
+---
+<div class="container">
+  <h2>{{ page.title}}</h2>
+  <p class="lead">{{ page.subtitle}}</p>
+  <!-- Brand -->
+  <a href="{{ site.baseurl }}/" class="logo text-center flex-basis-4 order-1 order-md-0">
+    <h2 class="sr-only">{{ site.title }}</h2>
+  </a>
+
+  <p>Sorry, the page requested can't be found...</p>
+
+  <p>Check if you typed the address correctly or if you used an outdated link or
+    <span>try to go
+      <a href="{{ site.baseurl }}/" alt="home page">HOME </a>
+      instead
+    </span>
+  </p>
+
+  <p>If you found a bronken link, please
+    <a href="mailto:{{ site.authoremail }}?Subject=Page%20400%20broken%20link" target="_top">email me</a>.
+  </p>
+
+</div>
