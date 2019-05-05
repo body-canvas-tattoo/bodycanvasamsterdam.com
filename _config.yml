@@ -5,7 +5,7 @@
 title: Vinnie Caldas — Body Canvas Tattoo
 description: > # this means to ignore newlines until "baseurl:"
   xxx
-baseurl: ""
+baseurl: "" 
 url: "http://bodycanvasamsterdam.com"
 port: "8010"
 author: MariaCoding
@@ -39,7 +39,7 @@ exclude:
 
 # SASS settings
 sass:
-  sass_dir: assets
+  sass_dir: /bodycanvas.github.io/assets # CHANGE WHEN ADD THE CNAME"
   style: compressed
 
 
@@ -73,21 +73,6 @@ map:
 
 
 # ------------------------------------------------------
-# OTHER CONFIGURATIONS: Default Scope definitions
-collections:
-  coll_portfolio:
-    output: true
-    layout: images-gallery
-  coll_drawings:
-    output: true
-    layout: images-gallery
-  coll_resume:
-    output: true
-    layout: resume-pg
-  coll_world:
-    output: true
-    layout: images-gallery
-
 # Pages Configs
 include: ['_pages', '_collections']
 relative_permalinks: false
