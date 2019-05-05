@@ -1,0 +1,5 @@
+# Cookies text to appear in the site first visit
+message: This site uses cookies to enhance your user experience and to analyse traffic. Information about your use of this site is shared with Google.
+botton-yes: I accept
+botton-no: Learn more
+lear-more: https://www.google.com/policies/technologies/cookies/

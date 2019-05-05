@@ -38,10 +38,10 @@
 	<script>
 	  document.addEventListener('DOMContentLoaded', function(event) {
 	    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
-	        (window.cookieOptions && cookieOptions.msg) || ' ',
-	        (window.cookieOptions && cookieOptions.close) || ' ',
-	        (window.cookieOptions && cookieOptions.learn) || ' ',
-	        (window.cookieOptions && cookieOptions.link) || ' ');
+	        (window.cookieOptions && cookieOptions.msg) || ' This site uses cookies to enhance your user experience and to analyse traffic. Information about your use of this site is shared with Google.',
+	        (window.cookieOptions && cookieOptions.close) || ' I accept',
+	        (window.cookieOptions && cookieOptions.learn) || ' Learn more',
+	        (window.cookieOptions && cookieOptions.link) || ' https://www.google.com/policies/technologies/cookies/');
 	  });
 	</script>
 
@@ -114,12 +114,14 @@
   </a>
 </li>
 <!-- Tattoo info page -->
-<li  class="nav-item dropdown" >
+<li  class="nav-item dropdown active" >
   <a class="nav-link dropdown-toggle" href="/bodycanvas.github.io/tattoo-information/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Tattoo information
   </a>
   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="/bodycanvas.github.io/tattoo-information/consent-form/">Consent Form
+      
+      <span class="sr-only">(current)</span>
       
     </a>
     <a class="dropdown-item" href="/bodycanvas.github.io/tattoo-information/after-care/">After Care

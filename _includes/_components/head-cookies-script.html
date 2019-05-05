@@ -5,9 +5,9 @@
 	<script>
 	  document.addEventListener('DOMContentLoaded', function(event) {
 	    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
-	        (window.cookieOptions && cookieOptions.msg) || '{% assign cookies-texts = site.data.cookies-texts[page.lang] | first %} {{ cookies-texts.message }}',
-	        (window.cookieOptions && cookieOptions.close) || '{% assign cookies-texts = site.data.cookies-texts[page.lang] | first %} {{ cookies-texts.botton-yes }}',
-	        (window.cookieOptions && cookieOptions.learn) || '{% assign cookies-texts = site.data.cookies-texts[page.lang] | first %} {{ cookies-texts.botton-no }}',
-	        (window.cookieOptions && cookieOptions.link) || '{% assign cookies-texts = site.data.cookies-texts[page.lang] | first %} {{ cookies-texts.lear-more }}');
+	        (window.cookieOptions && cookieOptions.msg) || '{% assign cookies-texts = site.data.cookies-texts %} {{ cookies-texts.message }}',
+	        (window.cookieOptions && cookieOptions.close) || '{% assign cookies-texts = site.data.cookies-texts %} {{ cookies-texts.botton-yes }}',
+	        (window.cookieOptions && cookieOptions.learn) || '{% assign cookies-texts = site.data.cookies-texts %} {{ cookies-texts.botton-no }}',
+	        (window.cookieOptions && cookieOptions.link) || '{% assign cookies-texts = site.data.cookies-texts %} {{ cookies-texts.lear-more }}');
 	  });
 	</script>
