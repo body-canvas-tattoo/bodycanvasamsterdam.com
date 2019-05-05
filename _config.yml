@@ -10,7 +10,7 @@ url: "http://bodycanvasamsterdam.com"
 port: "8010"
 author: MariaCoding
 relative_permalinks: false # Jekyll defaults to using absolute permalinks instead of relative permalinks
-repository: BodyCanvas/bodycanvas.github.io
+repository: body-canvas-tattoo/bodycanvas.github.io
 
 
 # Build settings
