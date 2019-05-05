@@ -2,13 +2,13 @@
   {% assign tattoo-styles = site.data.tattoo-styles %}
   <p class="tattoo-styles-text small">Filter by tattoo style:</p>
   <div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
-    <a {% if page.permalink == "/portfolio/" %} class="tattoo-styles-btn active btn" {% else %} class="tattoo-styles-btn btn" {% endif %}  href="/portfolio/">All
+    <a {% if page.permalink == "/portfolio/" %} class="tattoo-styles-btn active btn" {% else %} class="tattoo-styles-btn btn" {% endif %}  href="{{ site.baseurl}}/portfolio/">All
       {% if page.permalink == "/portfolio/" %}
       <span class="sr-only">(current)</span>
       {% endif %}
     </a>
     {% for tattoo-style in tattoo-styles %}
-    <a {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style }}" %} class="tattoo-styles-btn active btn" {% else %} class="tattoo-styles-btn btn" {% endif %}  href="/portfolio/tattoo-styles/{{ tattoo-style.style }}">{{ tattoo-style.style }}
+    <a {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style }}" %} class="tattoo-styles-btn active btn" {% else %} class="tattoo-styles-btn btn" {% endif %}  href="{{ site.baseurl}}/portfolio/tattoo-styles/{{ tattoo-style.style }}">{{ tattoo-style.style }}
       {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style }}" %}
       <span class="sr-only">(current)</span>
       {% endif %}
