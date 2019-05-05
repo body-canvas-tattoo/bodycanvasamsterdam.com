@@ -24,49 +24,49 @@
     <!-- NavTabs-->
     <ul class="navbar-nav d-flex flex-row justify-content-between align-items-center">
       <!-- Home page -->
-      <li {% if page.permalink == "/" or page.permalink == "" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-        <a class="nav-link" href="/">Home
-          {% if page.permalink == "/" or page.permalink == "" %}
+      <li {% if page.permalink == "{{ site.baseurl }}/" or page.permalink == "{{ site.baseurl }}" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+        <a class="nav-link" href="{{ site.baseurl }}/">Home
+          {% if page.permalink == "{{ site.baseurl }}/" or page.permalink == "" %}
           <span class="sr-only">(current)</span>
           {% endif %}
         </a>
       </li>
       <!-- About page -->
-      <li {% if page.permalink == "/about/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-        <a class="nav-link" href="/about/">About
-          {% if page.permalink == "/about/" %}
+      <li {% if page.permalink == "{{ site.baseurl }}/about/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+        <a class="nav-link" href="{{ site.baseurl }}/about/">About
+          {% if page.permalink == "{{ site.baseurl }}/about/" %}
           <span class="sr-only">(current)</span>
           {% endif %}
         </a>
       </li>
       <!-- Portfolio page -->
-      <li {% if page.permalink == "/portfolio/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-        <a class="nav-link" href="/portfolio/">Portfolio
-          {% if page.permalink == "/portfolio/" %}
+      <li {% if page.permalink == "{{ site.baseurl }}/portfolio/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+        <a class="nav-link" href="{{ site.baseurl }}/portfolio/">Portfolio
+          {% if page.permalink == "{{ site.baseurl }}/portfolio/" %}
           <span class="sr-only">(current)</span>
           {% endif %}
         </a>
       </li>
       <!-- Tattoo information page -->
-      <li {% if page.permalink == "/tattoo-information/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-        <a class="nav-link" href="/tattoo-information/">Tattoo Info
-          {% if page.permalink == "/tattoo-information/" %}
+      <li {% if page.permalink == "{{ site.baseurl }}/tattoo-information/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+        <a class="nav-link" href="{{ site.baseurl }}/tattoo-information/">Tattoo Info
+          {% if page.permalink == "{{ site.baseurl }}/tattoo-information/" %}
           <span class="sr-only">(current)</span>
           {% endif %}
         </a>
       </li>
       <!-- Drawing & Digital page -->
-      <li {% if page.permalink == "/drawing-digital/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-        <a class="nav-link" href="/drawing-digital/">Drawing
-          {% if page.permalink == "/drawing-digital/" %}
+      <li {% if page.permalink == "{{ site.baseurl }}/drawing-digital/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+        <a class="nav-link" href="{{ site.baseurl }}/drawing-digital/">Drawing
+          {% if page.permalink == "{{ site.baseurl }}/drawing-digital/" %}
           <span class="sr-only">(current)</span>
           {% endif %}
         </a>
       </li>
       <!-- Around the world page -->
-      <li {% if page.permalink == "/around-the-world/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-        <a class="nav-link" href="/around-the-world/">Around the world
-          {% if page.permalink == "/around-the-world/" %}
+      <li {% if page.permalink == "{{ site.baseurl }}/around-the-world/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+        <a class="nav-link" href="{{ site.baseurl }}/around-the-world/">Around the world
+          {% if page.permalink == "{{ site.baseurl }}/around-the-world/" %}
           <span class="sr-only">(current)</span>
           {% endif %}
         </a>
