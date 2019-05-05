@@ -1,0 +1,102 @@
+h1, h2, h3, h4, h5, h6, p, span, a { font-family: $font-clean; }
+
+h1 { font-size: $font-size-h1-xs; }
+h2 { font-size: $font-size-h2-xs; }
+h3 {
+  font-size: $font-size-h3-xs;
+  color: $black;
+  font-weight: 500 !important;
+  margin-top: 0.5em;
+}
+h4 { font-size: $font-size-h4-xs; }
+
+p, span, a { font-size: $font-size-base-xs; font-family: $font-stack; }
+
+a, a:hover {color: $accent-color; }
+
+.site-title {
+  color: $black;
+  font-family: $font-clean;
+  font-size: $font-size-brand-xs;
+  line-height: normal;
+  font-weight: 800;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 1.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.lead { font-size: $font-size-lead-xs; color: $primary-color; }
+
+.mute {
+  color: $grey;
+}
+hr, .vertical-line {
+  border-top: none;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(4, 4, 4, 0), rgba(4, 4, 4, 0.65), rgba(4, 4, 4, 0));
+  width: 40% !important;
+  margin-bottom: 0.5em;
+}
+/*********************************************************/
+/* Small devices (landscape phones, 34em and up >=544px) */
+@media (min-width: $media-breakpoint-sm) {
+  h1 { font-size: $font-size-h1-sm; }
+  h2 { font-size: $font-size-h2-sm; }
+  h3 { font-size: $font-size-h3-sm; }
+  h4 { font-size: $font-size-h4-sm; }
+
+  p, span, a { font-size: $font-size-base-sm; }
+
+  .site-title {
+    font-size: $font-size-brand-sm;
+  }
+
+  .lead { font-size: $font-size-lead-sm; }
+} /* End of Media Queries - Small devices -------------- */
+/*********************************************************/
+/*  Medium devices (tablets, 48em and up >=768px)------- */
+@media (min-width: $media-breakpoint-md) {
+  h1 { font-size: $font-size-h1-md; }
+  h2 { font-size: $font-size-h2-md; }
+  h3 { font-size: $font-size-h3-md; }
+  h4 { font-size: $font-size-h4-md; }
+
+  p, span, a { font-size: $font-size-base-md; }
+
+  .lead { font-size: $font-size-lead-md; }
+} /*End of Media Queries - Medium devices -------------- */
+/*********************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ------ */
+@media (min-width: $media-breakpoint-lg) {
+  h1 { font-size: $font-size-h1-lg; }
+  h2 { font-size: $font-size-h2-lg; }
+  h3 { font-size: $font-size-h3-lg; }
+  h4 { font-size: $font-size-h4-lg; }
+
+  p, span, a { font-size: $font-size-base-lg; }
+
+  .site-title {
+    font-size: $font-size-brand-lg;
+    letter-spacing: .04em;
+  }
+
+  .lead { font-size: $font-size-lead-lg; }
+} /*End of Media Queries - Large devices --------------- */
+/*********************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
+@media (min-width: $media-breakpoint-xl) {
+  h1 { font-size: $font-size-h1-xl; }
+  h2 { font-size: $font-size-h2-xl; }
+  h3 { font-size: $font-size-h3-xl; }
+  h4 { font-size: $font-size-h4-xl; }
+  p, span, a { font-size: $font-size-base-xl; }
+
+  .site-title {
+    font-size: $font-size-brand-xl;
+    letter-spacing: .05em;
+  }
+
+  .lead { font-size: $font-size-lead-xl; }
+} /* End of Media Queries - Extra large devices -Non-Retina Screens -- */

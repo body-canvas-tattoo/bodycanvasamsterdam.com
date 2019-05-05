@@ -1,0 +1,159 @@
+/****** GENERAL ******/
+html {
+  margin: 0 auto !important;
+  font-size: $font-size-root;
+  line-height: 1.15;
+  background-color: $light-grey;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  width: 100vw;
+  max-width: $body-max-width-xs;
+  margin: 0 auto;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-sizing: border-box;
+  color: $base-text-color;
+  font-family: $font-stack;
+  font-size: $font-size-base-xs;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: $white;
+ }
+main {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  //margin-left: 10%;
+  //margin-right: 10%;
+}
+footer {
+ width: 100%;
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;
+ box-sizing: border-box;
+ font-size: $font-size-small-sm;
+ .navbar {
+   .navbar-nav {
+     .nav-item.active  {
+       .nav-link {
+         color: $accent-color;
+         }
+       }
+     }
+   }
+   .copyright {
+    .copyright-text {
+      color: $grey;
+      font-size: $font-size-small-xs;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+      .copyright-icon {
+        color: $white-rgba;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
+      }
+      .copyright-link {
+        color: $accent-color;
+        text-decoration: underline;
+        margin-left: 0.2em;
+      }
+      .copyright-link:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+.flex-basis-1 {
+  -webkit-flex-basis: 100%; /* Safari 6.1+ */
+  flex-basis: 100%;
+}
+.flex-basis-3 {
+  -webkit-flex-basis: 100%; /* Safari 6.1+ */
+  flex-basis: 100%;
+}
+.flex-basis-4 {
+  -webkit-flex-basis: 100%; /* Safari 6.1+ */
+  flex-basis: 100%;
+}
+.far, .fas {
+  color: $grey;
+}
+ /*********************************************************/
+ /* Small devices (landscape phones, 34em and up >=544px) */
+ @media (min-width: $media-breakpoint-sm) {
+   body {
+     max-width: $body-max-width-sm;
+     font-size: $font-size-base-sm;
+   }
+   footer {
+     font-size: $font-size-small-sm;
+   }
+ } /* End of Media Queries - Small devices -------------- */
+ /*********************************************************/
+ /*  Medium devices (tablets, 48em and up >=768px)------- */
+ @media (min-width: $media-breakpoint-md) {
+   body {
+     max-width: $body-max-width-md;
+     font-size: $font-size-base-md;
+   }
+   footer {
+     font-size: $font-size-small-md;
+   }
+   .flex-basis-3 {
+     -webkit-flex-basis: 50%; /* Safari 6.1+ */
+     flex-basis: 50%;
+   }
+   .flex-basis-4 {
+     -webkit-flex-basis: 50%; /* Safari 6.1+ */
+     flex-basis: 50%;
+   }
+ } /*End of Media Queries - Medium devices -------------- */
+ /*********************************************************/
+ /*  Large devices (desktops, 62em and up >=992px) ------ */
+ @media (min-width: $media-breakpoint-lg) {
+   body {
+     max-width: $body-max-width-lg;
+     font-size: $font-size-base-lg;
+   }
+   footer {
+     font-size: $font-size-small-lg;
+   }
+ } /*End of Media Queries - Large devices --------------- */
+ /*********************************************************/
+ /*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
+ @media (min-width: $media-breakpoint-xl) {
+   body {
+     max-width: $body-max-width-xl;
+     font-size: $font-size-base-lg;
+   }
+   footer {
+     font-size: $font-size-small-xl;
+   }
+   .flex-basis-3 {
+     -webkit-flex-basis: 33%; /* Safari 6.1+ */
+     flex-basis: 33%;
+   }
+   .flex-basis-4 {
+     -webkit-flex-basis: 25%; /* Safari 6.1+ */
+     flex-basis: 25%;
+   }
+ } /* End of Media Queries - Extra large devices -Non-Retina Screens -- */
+ /*********************************************************/
+ /*  2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - Non-Retina Screens -- */
+ @media (min-width: $media-breakpoint-xxl) {
+   body {
+     max-width: $body-max-width-xxl;
+   }
+ } /* End of 2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - Non-Retina Screens -- */

@@ -1,0 +1,68 @@
+<!-- Home page -->
+<li {% if page.permalink == "/" or page.permalink == "" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+  <a class="nav-link" href="/">Home
+    {% if page.permalink == "/" or page.permalink == "" %}
+    <span class="sr-only">(current)</span>
+    {% endif %}
+  </a>
+</li>
+<!-- About page -->
+<li {% if page.permalink == "/about/" %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
+  <a class="nav-link dropdown-toggle" href="/about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    About
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a class="dropdown-item" href="/about/">About me
+      {% if page.permalink == "/about/" %}
+      <span class="sr-only">(current)</span>
+      {% endif %}
+    </a>
+    <a class="dropdown-item" href="/about/resume-cv/">Resume / CV
+      {% if page.permalink == "/about/resume-cv/" %}
+      <span class="sr-only">(current)</span>
+      {% endif %}
+    </a>
+  </div>
+</li>
+<!-- Portfolio page -->
+<li {% if page.permalink == "/portfolio/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+  <a class="nav-link" href="/portfolio/">Tattoo Portfolio
+    {% if page.permalink == "/portfolio/" %}
+    <span class="sr-only">(current)</span>
+    {% endif %}
+  </a>
+</li>
+<!-- Tattoo info page -->
+<li {% if page.permalink == "/tattoo-information/consent-form/" or page.permalink == "/tattoo-information/after-care/"  %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
+  <a class="nav-link dropdown-toggle" href="/tattoo-information/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Tattoo information
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a class="dropdown-item" href="/tattoo-information/consent-form/">Consent Form
+      {% if page.permalink == "/tattoo-information/consent-form/" %}
+      <span class="sr-only">(current)</span>
+      {% endif %}
+    </a>
+    <a class="dropdown-item" href="/tattoo-information/after-care/">After Care
+      {% if page.permalink == "/tattoo-information/after-care/" %}
+      <span class="sr-only">(current)</span>
+      {% endif %}
+    </a>
+  </div>
+</li>
+<!-- Drawing & Digital page -->
+<li {% if page.permalink == "/drawing-digital/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+  <a class="nav-link" href="/drawing-digital/">Drawing & Digital
+    {% if page.permalink == "/drawing-digital/" %}
+    <span class="sr-only">(current)</span>
+    {% endif %}
+  </a>
+</li>
+<!-- Around the world page -->
+<li {% if page.permalink == "/around-the-world/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+  <a class="nav-link" href="/around-the-world/">Around the world
+    {% if page.permalink == "/around-the-world/" %}
+    <span class="sr-only">(current)</span>
+    {% endif %}
+  </a>
+</li>

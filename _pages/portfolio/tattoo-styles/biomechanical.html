@@ -1,0 +1,28 @@
+---
+title: biomechanical
+artist: vinnie-caldas
+img-folder: pg-portfolio
+layout: default
+permalink: /portfolio/tattoo-styles/biomechanical
+---
+<div class="container">
+  <div class="d-flex flex-column flex-sm-row justify-content-start justify-content-sm-between align-itens-sm-strech align-itens-sm-end">
+    <div class="container-fluid">
+      <h2>{{ page.title }}</h2>
+      <p class="lead">Tattoo Style</p>
+    </div>
+  </div>
+  <!-- Tattoo Styles -->
+  {% include _components/tattoo-styles.html %}
+
+  <!-- Gallery of photos -->
+  <div class="gallery d-flex flex-row flex-wrap justify-content-center">
+  <!-- Only tattoos photos from [page.artist] -->
+  {% assign photos = site.data.photos-portfolio[page.artist] %}
+    {% for photo in photos %}
+      {% if photo.tattoo-styles contains page.title %}
+        {% include _components/imgs-gallery.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

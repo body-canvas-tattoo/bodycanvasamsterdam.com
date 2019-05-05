@@ -1,0 +1,10 @@
+# Social Media Settings #
+- title: facebook
+  url: https://www.facebook.com/BodyCanvasTattooParlour/
+  tooltip: facebook-square
+- title: instagram
+  url: https://www.instagram.com/bodycanvasamsterdam/
+  tooltip: instagram
+- title: whatsapp
+  url: https://api.whatsapp.com/send?phone=31627164147
+  tooltip: whatsapp-square

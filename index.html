@@ -1,0 +1,56 @@
+---
+title: Vinnie Caldas - Body Canvas Tattoo
+layout: default
+permalink: /
+---
+{% include _components/jumbotron.html %}
+
+  <div class="container-fluid d-flex flex-column flex-md-row justify-content-start justify-content-md-center align-items-center">
+    <!-- Brand -->
+    <a href="/" class="logo text-center flex-basis-4 order-1 order-md-0">
+      <h2 class="sr-only">{{ site.title }}</h2>
+    </a>
+    <!-- Contact Info -->
+    <div class="container-fluid text-center flex-basis-3 order-0 order-md-1">
+      <h3>Contact Info</h3>
+      <i class="far fa-envelope" aria-hidden="true"><span class="sr-only">envelope's icon</span></i>
+      <p>
+        <a href="mailto:{{ site.contact-data.email }}?subject={{ site.contact-data.email-subject }}">   {{ site.contact-data.email }}
+        </a>
+      </p>
+      <i class="fas fa-phone" aria-hidden="true"><span class="sr-only">phone's icon</span></i>
+      <p>
+        <a href="tel:{{ site.contact-data.phone }}">
+          {{ site.contact-data.phone }}
+        </a>
+        <span class="d-block small">(WhatsApp or call)</span>
+      </p>
+    </div>
+    <!-- Opening Hours -->
+    <div class="container-fluid text-center flex-basis-3 order-2">
+      <h3>Opening Hours</h3>
+      <i class="far fa-calendar-alt" aria-hidden="true"><span class="sr-only">calendar's icon</span></i>
+      <p>
+        Monday to Sunday
+      </p>
+      <i class="far fa-clock" aria-hidden="true"><span class="sr-only">clock's icon</span></i>
+      <p>
+        11am — 7pm
+        <span class="d-block small">(for walk-ins and appointments)</span>
+      </p>
+    </div>
+  </div>
+  <!-- Localization -->
+  <div class="container-fluid flex-basis-1 text-center order-3">
+    <hr class="vertical-line">
+    <br>
+    <h3>Located at</h3>
+    <address>
+      {{ site.map.address }}
+    </address>
+    <div class="container map embed-responsive embed-responsive-16by9">
+      <div class="embed-responsive-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1218.5441145105203!2d4.900140195448591!3d52.3785532972207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b711368c59%3A0xcd36c2453c10a8ee!2sLil&#39;+Amsterdam+Central+Station!5e0!3m2!1sen!2spt!4v1556845369698!5m2!1sen!2spt" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,745 @@
+@charset "UTF-8";
+/*
+	All rights reserved to Maria Coding
+	mariacoding.com | @mariacoding
+*/
+/*********************************/
+/*            HELPERS            */
+/*********************************/
+/* Sass Variables
+---------------------------------------------------------- */
+/* Import Custom Fonts --------------------*/
+/* Fonts Variables*/
+/*----------------*/
+/*----------------*/
+/* Colors Variables*/
+/* Mixins*/
+/***********************************************************/
+/* Variables of STYLES CROSS ALL PAGES------------------- */
+/* Media Queries Breaking points*/
+/* End of Sass Variables
+---------------------------------------------------------- */
+/*********************************/
+/*            BASE            */
+/*********************************/
+/* Typography
+---------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  font-size: 2.8em; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.13em;
+  color: #111111;
+  font-weight: 500 !important;
+  margin-top: 0.5em; }
+
+h4 {
+  font-size: 1.03em; }
+
+p, span, a {
+  font-size: 1.05em;
+  font-family: "Quattrocento Sans", sans-serif; }
+
+a, a:hover {
+  color: #2EA88D; }
+
+.site-title {
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  line-height: normal;
+  font-weight: 800;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 1.5em;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.lead {
+  font-size: 1.2em;
+  color: #a88d2e; }
+
+.mute {
+  color: #b9b9b9; }
+
+hr, .vertical-line {
+  border-top: none;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(4, 4, 4, 0), rgba(4, 4, 4, 0.65), rgba(4, 4, 4, 0));
+  width: 40% !important;
+  margin-bottom: 0.5em; }
+
+/*********************************************************/
+/* Small devices (landscape phones, 34em and up >=544px) */
+@media (min-width: 544px) {
+  h1 {
+    font-size: 2.85em; }
+
+  h2 {
+    font-size: 1.65em; }
+
+  h3 {
+    font-size: 1.15em; }
+
+  h4 {
+    font-size: 1.05em; }
+
+  p, span, a {
+    font-size: 1.1em; }
+
+  .site-title {
+    font-size: 1.25em; }
+
+  .lead {
+    font-size: 1.15em; } }
+/* End of Media Queries - Small devices -------------- */
+/*********************************************************/
+/*  Medium devices (tablets, 48em and up >=768px)------- */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.9em; }
+
+  h2 {
+    font-size: 1.7em; }
+
+  h3 {
+    font-size: 1.05em; }
+
+  h4 {
+    font-size: 0.85em; }
+
+  p, span, a {
+    font-size: 1em; }
+
+  .lead {
+    font-size: 1.16em; } }
+/*End of Media Queries - Medium devices -------------- */
+/*********************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ------ */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.95em; }
+
+  h2 {
+    font-size: 1.75em; }
+
+  h3 {
+    font-size: 1.15em; }
+
+  h4 {
+    font-size: 1.05em; }
+
+  p, span, a {
+    font-size: 1.02em; }
+
+  .site-title {
+    font-size: 1.3em;
+    letter-spacing: .04em; }
+
+  .lead {
+    font-size: 1.18em; } }
+/*End of Media Queries - Large devices --------------- */
+/*********************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 1.8em; }
+
+  h3 {
+    font-size: 1.2em; }
+
+  h4 {
+    font-size: 1.1em; }
+
+  p, span, a {
+    font-size: 1.04em; }
+
+  .site-title {
+    font-size: 1.35em;
+    letter-spacing: .05em; }
+
+  .lead {
+    font-size: 1.2em; } }
+/* End of Media Queries - Extra large devices -Non-Retina Screens -- */
+/* End of Typography
+---------------------------------------------------------- */
+/* Style crossing all pages
+---------------------------------------------------------- */
+/****** GENERAL ******/
+html {
+  margin: 0 auto !important;
+  font-size: 18px;
+  line-height: 1.15;
+  background-color: #f2f2f2;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth; }
+
+body {
+  width: 100%;
+  width: 100vw;
+  max-width: 543px;
+  margin: 0 auto;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-sizing: border-box;
+  color: #4e4e4e;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.05em;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: #ffffff; }
+
+main {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+footer {
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  box-sizing: border-box;
+  font-size: 0.73em; }
+  footer .navbar .navbar-nav .nav-item.active .nav-link {
+    color: #2EA88D; }
+  footer .copyright .copyright-text {
+    color: #b9b9b9;
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: .03em; }
+    footer .copyright .copyright-text .copyright-icon {
+      color: rgba(255, 255, 255, 0.8);
+      margin-left: 0.3em;
+      margin-right: 0.3em; }
+    footer .copyright .copyright-text .copyright-link {
+      color: #2EA88D;
+      text-decoration: underline;
+      margin-left: 0.2em; }
+    footer .copyright .copyright-text .copyright-link:hover {
+      color: #a88d2e; }
+
+.flex-basis-1 {
+  -webkit-flex-basis: 100%;
+  /* Safari 6.1+ */
+  flex-basis: 100%; }
+
+.flex-basis-3 {
+  -webkit-flex-basis: 100%;
+  /* Safari 6.1+ */
+  flex-basis: 100%; }
+
+.flex-basis-4 {
+  -webkit-flex-basis: 100%;
+  /* Safari 6.1+ */
+  flex-basis: 100%; }
+
+.far, .fas {
+  color: #b9b9b9; }
+
+/*********************************************************/
+/* Small devices (landscape phones, 34em and up >=544px) */
+@media (min-width: 544px) {
+  body {
+    max-width: 767px;
+    font-size: 1.1em; }
+
+  footer {
+    font-size: 0.73em; } }
+/* End of Media Queries - Small devices -------------- */
+/*********************************************************/
+/*  Medium devices (tablets, 48em and up >=768px)------- */
+@media (min-width: 768px) {
+  body {
+    max-width: 991px;
+    font-size: 1em; }
+
+  footer {
+    font-size: 0.7em; }
+
+  .flex-basis-3 {
+    -webkit-flex-basis: 50%;
+    /* Safari 6.1+ */
+    flex-basis: 50%; }
+
+  .flex-basis-4 {
+    -webkit-flex-basis: 50%;
+    /* Safari 6.1+ */
+    flex-basis: 50%; } }
+/*End of Media Queries - Medium devices -------------- */
+/*********************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ------ */
+@media (min-width: 992px) {
+  body {
+    max-width: 1199px;
+    font-size: 1.02em; }
+
+  footer {
+    font-size: 0.75em; } }
+/*End of Media Queries - Large devices --------------- */
+/*********************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
+@media (min-width: 1200px) {
+  body {
+    max-width: 1499px;
+    font-size: 1.02em; }
+
+  footer {
+    font-size: 0.8em; }
+
+  .flex-basis-3 {
+    -webkit-flex-basis: 33%;
+    /* Safari 6.1+ */
+    flex-basis: 33%; }
+
+  .flex-basis-4 {
+    -webkit-flex-basis: 25%;
+    /* Safari 6.1+ */
+    flex-basis: 25%; } }
+/* End of Media Queries - Extra large devices -Non-Retina Screens -- */
+/*********************************************************/
+/*  2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - Non-Retina Screens -- */
+@media (min-width: 1500px) {
+  body {
+    max-width: 1950px; } }
+/* End of 2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - Non-Retina Screens -- */
+/* End of Style crossing all pages
+---------------------------------------------------------- */
+/*********************************/
+/*         COMPONENTS            */
+/*********************************/
+/* Navigation
+---------------------------------------------------------- */
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  float: none; }
+  .navbar .navbar-toggler {
+    border-color: transparent;
+    width: 64px;
+    height: 64px; }
+    .navbar .navbar-toggler .navbar-toggler-icon {
+      background-image: url("../images/icon-hamburger.svg"); }
+  .navbar .navbar-toggler:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .navbar .navbar-toggler:focus .navbar-toggler-icon {
+      background-image: url("../images/icon-cross.svg");
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  .navbar .navbar-toggler:focus.collapsed {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .navbar .navbar-toggler:focus.collapsed .navbar-toggler-icon {
+      margin: auto;
+      background-image: url("../images/icon-hamburger.svg");
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  .navbar .navbar-nav {
+    margin: 0;
+    padding: 0; }
+    .navbar .navbar-nav .nav-item {
+      text-indent: 0;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      font-size: 0.7875em;
+      font-weight: 400;
+      letter-spacing: .03em;
+      text-align: right; }
+      .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        color: #b9b9b9; }
+      .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus {
+        color: #a88d2e; }
+      .navbar .navbar-nav .nav-item .dropdown-menu {
+        font-size: 0.8925em; }
+        .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+          font-size: inherit;
+          color: #b9b9b9; }
+        .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+          color: #a88d2e;
+          background-color: transparent; }
+    .navbar .navbar-nav .nav-item.active .nav-link {
+      color: #4e4e4e;
+      font-weight: bold; }
+    .navbar .navbar-nav .nav-item.active:hover .nav-link, .navbar .navbar-nav .nav-item.active:focus .nav-link {
+      color: #a88d2e; }
+
+/* Breadscrumbs */
+nav .breadcrumb {
+  margin: 0;
+  padding: 0.3em 1.5em;
+  text-transform: uppercase;
+  font-weight: bold; }
+  nav .breadcrumb .breadcrumb-item {
+    font-size: 0.612em;
+    color: #b9b9b9; }
+    nav .breadcrumb .breadcrumb-item .breadcrumb-link {
+      color: #2EA88D; }
+
+/* Social Media */
+.social-media-container {
+  margin-top: 1.2rem;
+  margin-left: 1.5rem; }
+  .social-media-container .social-media {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0; }
+  .social-media-container .social-name-item {
+    display: inline-block; }
+    .social-media-container .social-name-item .social-name-link {
+      color: #2EA88D; }
+      .social-media-container .social-name-item .social-name-link .social-name-icon {
+        padding: 0.1rem 0.25rem;
+        font-size: 1.2em; }
+    .social-media-container .social-name-item .social-name-link:hover {
+      color: #a88d2e; }
+
+/*********************************************************/
+/* Small devices (landscape phones, 34em and up >=544px) */
+@media (min-width: 544px) {
+  /* Navbar */
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 0.935em; }
+  .navbar .navbar-nav .dropdown-menu {
+    font-size: 0.99em; }
+
+  /* Social Media */
+  .social-media-container .social-name-text {
+    font-size: 0.88em; }
+  .social-media-container .social-name-item .social-name-link .social-name-icon {
+    font-size: 1.25em; }
+
+  /* Breadscrumbs */
+  nav .breadcrumb {
+    font-size: 0.6205em; } }
+/* End of Media Queries - Small devices -------------- */
+/*********************************************************/
+/*  Medium devices (tablets, 48em and up >=768px)------- */
+@media (min-width: 768px) {
+  /* Navbar */
+  .navbar .navbar-nav .nav-item {
+    text-align: center; }
+    .navbar .navbar-nav .nav-item .nav-link {
+      font-size: 0.85em; }
+  .navbar .navbar-nav .dropdown-menu {
+    font-size: 0.85em; }
+
+  /* Breadscrumbs */
+  nav .breadcrumb {
+    font-size: 0.595em; }
+
+  /* Social Media */
+  .social-media-container {
+    margin-left: 0;
+    margin-bottom: 0.75em; }
+    .social-media-container .social-name-text {
+      font-size: 0.8em; }
+    .social-media-container .social-name-item .social-name-link .social-name-icon {
+      font-size: 1.2em; } }
+/*End of Media Queries - Medium devices -------------- */
+/*********************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ------ */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar .navbar-nav .nav-item {
+    text-align: center; }
+    .navbar .navbar-nav .nav-item .nav-link {
+      font-size: 0.867em; }
+  .navbar .navbar-nav .dropdown-menu {
+    font-size: 0.867em; }
+
+  /* Breadscrumbs */
+  nav .breadcrumb {
+    font-size: 0.6375em; }
+
+  /* Social Media */
+  .social-media-container .social-name-text {
+    font-size: 0.816em; }
+  .social-media-container .social-name-item .social-name-link .social-name-icon {
+    font-size: 1.3em; } }
+/*End of Media Queries - Large devices --------------- */
+/*********************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
+@media (min-width: 1200px) {
+  /* Navbar */
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 0.884em; }
+  .navbar .navbar-nav .dropdown-menu {
+    font-size: 0.935em; }
+
+  /* Breadscrumbs */
+  nav .breadcrumb {
+    font-size: 0.68em; }
+
+  /* Social Media */
+  .social-media-container .social-name-text {
+    font-size: 0.832em; }
+  .social-media-container .social-name-item .social-name-link .social-name-icon {
+    font-size: 1.35em; } }
+/* End of Media Queries - Extra large devices -Non-Retina Screens -- */
+/* End of Navigation
+---------------------------------------------------------- */
+/* Images, videos, PDFs, Tables and Figures
+---------------------------------------------------------- */
+/* Media Objects classes */
+.logo {
+  margin: 0 auto;
+  background-image: url("../images/sm/logo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+  width: 543px;
+  height: 506.619px;
+  max-width: 70%;
+  max-width: 70vw;
+  max-height: 65.31vw;
+  opacity: 0.9; }
+
+.jumbotron {
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding: 0;
+  background-color: transparent; }
+  .jumbotron .jumbotrom-img {
+    background-image: url("../images/sm/vinnie-caldas-tattoo-artist-back.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-decoration: none;
+    width: 543px;
+    height: 217.2px;
+    max-width: 100%;
+    max-width: 100vw;
+    max-height: 40vw;
+    position: relative; }
+    .jumbotron .jumbotrom-img .photo-credit {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 6rem;
+      height: 3rem; }
+
+.map {
+  opacity: 0.7;
+  border: 5px solid #f2f2f2;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  border-radius: 0.3rem; }
+
+.about-img {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/sm/vinnie-caldas-tattoo-artist-profile.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+  width: 550px;
+  height: 830px;
+  max-width: 80%;
+  max-width: 80vw;
+  max-height: 120vw;
+  position: relative; }
+  .about-img .photo-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 6rem;
+    height: 3rem; }
+
+.gallery {
+  background-color: #f2f2f2;
+  min-height: 45vh !important; }
+  .gallery .img-gallery {
+    height: 280px;
+    max-height: 280px;
+    overflow: hidden; }
+    .gallery .img-gallery .img-container {
+      width: 280px;
+      height: inherit;
+      margin: 0 auto;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      overflow: hidden;
+      -webkit-border-radius: 0.2rem;
+      -moz-border-radius: 0.2rem;
+      -ms-border-radius: 0.2rem;
+      border-radius: 0.2rem;
+      object-fit: cover; }
+      .gallery .img-gallery .img-container .img-inside {
+        margin: 0 auto;
+        overflow: hidden;
+        object-fit: cover; }
+
+/*********************************************************/
+/* Small devices (landscape phones, 34em and up >=544px) */
+@media (min-width: 544px) {
+  .logo {
+    width: 767px;
+    height: 715.611px;
+    max-width: 70%;
+    max-width: 70vw;
+    max-height: 65.31vw; }
+
+  .jumbotron .jumbotrom-img {
+    width: 767px;
+    height: 306.8px; } }
+/* End of Media Queries - Small devices -------------- */
+/*********************************************************/
+/*  Medium devices (tablets, 48em and up >=768px)------- */
+@media (min-width: 768px) {
+  .logo {
+    background-image: url("../images/lg/logo.jpg");
+    width: 247.75px;
+    height: 231.15075px;
+    max-width: 33vw;
+    max-height: 31vw; }
+
+  .jumbotron {
+    margin-top: 1.5em; }
+    .jumbotron .jumbotrom-img {
+      background-image: url("../images/lg/vinnie-caldas-tattoo-artist-back.jpg");
+      width: 991px;
+      height: 396.4px; }
+
+  .about-img {
+    max-width: 45%;
+    max-width: 45vw;
+    max-height: 52.5vw; } }
+/*End of Media Queries - Medium devices -------------- */
+/*********************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ------ */
+@media (min-width: 992px) {
+  .logo {
+    width: 299.75px;
+    height: 279.66675px; }
+
+  .jumbotron .jumbotrom-img {
+    width: 1199px;
+    height: 479.6px; } }
+/*End of Media Queries - Large devices --------------- */
+/*********************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
+@media (min-width: 1200px) {
+  .logo {
+    background-image: url("../images/xxl/logo.jpg");
+    width: 374.75px;
+    height: 349.64175px; }
+
+  .jumbotron .jumbotrom-img {
+    background-image: url("../images/xxl/vinnie-caldas-tattoo-artist-back.jpg");
+    width: 1499px;
+    height: 599.6px; } }
+/* End of Media Queries - Extra large devices -Non-Retina Screens -- */
+/*********************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - RETINA Screens -- */
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .logo {
+    background-image: url("../images/original/logo.jpg"); }
+
+  .jumbotron .jumbotrom-img {
+    background-image: url("../images/original/vinnie-caldas-tattoo-artist-back.jpg"); }
+
+  .about-img {
+    max-width: 25%;
+    max-width: 25vw;
+    max-height: 37.5vw;
+    object-fit: scale-down; } }
+/*End of Media Queries - Extra large devices - RETINA Screens -- */
+/*********************************************************/
+/*  2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - Non-Retina Screens -- */
+@media (min-width: 1500px) {
+  .logo {
+    width: 487.5px;
+    height: 454.8375px; }
+
+  .jumbotron .jumbotrom-img {
+    width: 1950px;
+    height: 780px; } }
+/* End of 2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - Non-Retina Screens -- */
+/*********************************************************/
+/*  2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - RETINA Screens -- */
+@media (min-width: 1500px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .logo {
+    background-image: url("../images/original/logo.jpg"); }
+
+  .jumbotron .jumbotrom-img {
+    background-image: url("../images/original/vinnie-caldas-tattoo-artist-back.jpg"); } }
+/*End of Media Queries - Extra large devices - RETINA Screens -- */
+.guest-artists, .tattoo-styles {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  .guest-artists .guest-text, .guest-artists .tattoo-styles-text, .tattoo-styles .guest-text, .tattoo-styles .tattoo-styles-text {
+    margin-bottom: 0; }
+  .guest-artists .guest-btn, .guest-artists .tattoo-styles-btn, .tattoo-styles .guest-btn, .tattoo-styles .tattoo-styles-btn {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    color: #111111;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.576em;
+    text-transform: uppercase;
+    margin-left: 0.1em;
+    margin-right: 0.1em; }
+  .guest-artists .guest-btn:hover, .guest-artists .guest-btn:focus,
+  .guest-artists .tattoo-styles-btn:hover, .guest-artists .tattoo-styles-btn:focus, .tattoo-styles .guest-btn:hover, .tattoo-styles .guest-btn:focus,
+  .tattoo-styles .tattoo-styles-btn:hover, .tattoo-styles .tattoo-styles-btn:focus {
+    background-color: #a88d2e;
+    border-color: #a88d2e;
+    color: #ffffff; }
+  .guest-artists .guest-btn:active, .guest-artists .tattoo-styles-btn:active,
+  .guest-artists .guest-btn:not(:disabled):not(.disabled):active,
+  .guest-artists .tattoo-styles-btn:not(:disabled):not(.disabled):active, .tattoo-styles .guest-btn:active, .tattoo-styles .tattoo-styles-btn:active,
+  .tattoo-styles .guest-btn:not(:disabled):not(.disabled):active,
+  .tattoo-styles .tattoo-styles-btn:not(:disabled):not(.disabled):active {
+    background-color: #4e4e4e;
+    border-color: #4e4e4e;
+    color: #ffffff; }
+
+.tattoo-styles .tattoo-styles-btn {
+  margin: 0.1em 0.3em;
+  margin-bottom: 1.5em; }
+.tattoo-styles .tattoo-styles-btn.active {
+  background-color: #4e4e4e;
+  border-color: #4e4e4e;
+  color: #ffffff; }
+
+/*----------------------*/
+/* End of Images, videos, PDFs, Tables and Figures
+---------------------------------------------------------- */
+
+/*# sourceMappingURL=style_v1.01.css.map */

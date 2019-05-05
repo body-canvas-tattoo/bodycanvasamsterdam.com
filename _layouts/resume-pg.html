@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="container-fluid">
+    <h2>Vinnie's Resume / CV</h2>
+    <p class="lead">Tattoo Artist</p>
+
+    <div class="row d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-center align-items-md-start">
+      <div class="col-12 col-md-8">
+        <hr class="vertical-line">
+        {{ content }}
+      </div>
+      <div class="col-12 col-md-4">
+        <!-- Gallery of photos -->
+        <div class="gallery d-flex flex-row flex-wrap justify-content-center">
+        <!-- Only tattoos photos from [page.artist] -->
+        {% assign photos = site.data.photos-resume %}
+          {% for photo in photos %}
+            {% include _components/imgs-gallery.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

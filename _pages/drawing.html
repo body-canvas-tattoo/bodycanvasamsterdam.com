@@ -1,0 +1,19 @@
+---
+title: Drawing and Digital
+img-folder: pg-drawings
+layout: default
+permalink: /drawing-digital/
+---
+<div class="container">
+  <div class="container-fluid">
+    <h2>Vinnie's drawings</h2>
+    <p class="lead">Tattoo Artist</p>
+  </div>
+
+  <div class="gallery d-flex flex-row flex-wrap justify-content-center">
+  {% assign photos = site.data.photos-drawings %}
+    {% for photo in photos %}
+      {% include _components/imgs-gallery.html %}
+    {% endfor %}
+  </div>
+</div>

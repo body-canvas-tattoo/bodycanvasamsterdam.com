@@ -1,0 +1,269 @@
+/* Navbar */
+.navbar {
+  background-color: $white;
+  float: none;
+  .navbar-toggler {
+    border-color: transparent;
+    width: 64px;
+    height: 64px;
+    .navbar-toggler-icon {
+      background-image: url('../images/icon-hamburger.svg');
+    }
+  }
+  .navbar-toggler:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    .navbar-toggler-icon {
+      background-image: url('../images/icon-cross.svg');
+      @include ease-in-out(0.3s);
+    }
+  }
+  .navbar-toggler:focus.collapsed {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    .navbar-toggler-icon {
+      margin: auto;
+      background-image: url('../images/icon-hamburger.svg');
+      @include ease-in-out(0.3s);
+    }
+  }
+  .navbar-nav {
+    margin: 0;
+    padding: 0;
+    .nav-item {
+      text-indent: 0;
+      font-family: $font-clean;
+      text-transform: uppercase;
+      font-size: $font-size-base-xs * 0.75;
+      font-weight: 400;
+      letter-spacing: .03em;
+      text-align: right;
+      .nav-link{
+        padding: 0.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        color: $grey;
+      }
+      .nav-link:hover, .nav-link:focus {
+        color: $primary-color;
+      }
+      .dropdown-menu {
+        font-size: $font-size-base-xs * 0.85;
+        .dropdown-item {
+          font-size: inherit;
+          color: $grey;
+        }
+        .dropdown-item:hover {
+          color: $primary-color;
+          background-color: transparent;
+        }
+      }
+    }
+    .nav-item.active  {
+      .nav-link {
+        color: $dark-grey;
+        font-weight: bold;
+        }
+      }
+    .nav-item.active:hover, .nav-item.active:focus {
+      .nav-link {
+        color: $primary-color;
+      }
+    }
+  }
+}
+/* Breadscrumbs */
+nav {
+  .breadcrumb {
+    margin: 0;
+    padding: 0.3em 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    .breadcrumb-item {
+      font-size: $font-size-small-xs * 0.85;
+      color: $grey;
+      .breadcrumb-link {
+        color: $accent-color;
+      }
+    }
+  }
+}
+/* Social Media */
+.social-media-container {
+  margin-top: 1.2rem;
+  margin-left: 1.5rem;
+  .social-media {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+  }
+  .social-name-item {
+    display: inline-block;
+    .social-name-link {
+      color: $accent-color;
+      .social-name-icon {
+        padding: 0.1rem 0.25rem;
+        font-size: $font-size-brand-xs;
+      }
+    }
+    .social-name-link:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+/*********************************************************/
+/* Small devices (landscape phones, 34em and up >=544px) */
+@media (min-width: $media-breakpoint-sm) {
+  /* Navbar */
+  .navbar {
+    .navbar-nav {
+      .nav-item {
+        .nav-link{
+          font-size: $font-size-base-sm * 0.85;
+        }
+      }
+      .dropdown-menu {
+        font-size: $font-size-base-sm * 0.9;
+      }
+    }
+  }
+  /* Social Media */
+  .social-media-container {
+    .social-name-text {
+      font-size: $font-size-base-sm * 0.8;
+    }
+    .social-name-item {
+      .social-name-link {
+        .social-name-icon {
+          font-size: $font-size-brand-sm;
+        }
+      }
+    }
+  }
+  /* Breadscrumbs */
+  nav {
+    .breadcrumb {
+      font-size: $font-size-small-sm * 0.85;
+    }
+  }
+} /* End of Media Queries - Small devices -------------- */
+/*********************************************************/
+/*  Medium devices (tablets, 48em and up >=768px)------- */
+@media (min-width: $media-breakpoint-md) {
+  /* Navbar */
+  .navbar {
+    .navbar-nav {
+      .nav-item {
+        text-align: center;
+        .nav-link{
+          font-size: $font-size-base-md * 0.85;
+        }
+      }
+      .dropdown-menu {
+        font-size: $font-size-base-md * 0.85;
+      }
+    }
+  }
+  /* Breadscrumbs */
+  nav {
+    .breadcrumb {
+      font-size: $font-size-small-md * 0.85;
+    }
+  }
+  /* Social Media */
+  .social-media-container {
+    margin-left: 0;
+    margin-bottom: 0.75em;
+    .social-name-text {
+      font-size: $font-size-base-md * 0.8;
+    }
+    .social-name-item {
+      .social-name-link {
+        .social-name-icon {
+          font-size: $font-size-brand-md;
+        }
+      }
+    }
+  }
+} /*End of Media Queries - Medium devices -------------- */
+/*********************************************************/
+/*  Large devices (desktops, 62em and up >=992px) ------ */
+@media (min-width: $media-breakpoint-lg) {
+  /* Navbar */
+  .navbar {
+    .navbar-nav {
+      .nav-item {
+        text-align: center;
+        .nav-link{
+          font-size: $font-size-base-lg * 0.85;
+        }
+      }
+      .dropdown-menu {
+        font-size: $font-size-base-lg * 0.85;
+      }
+    }
+  }
+  /* Breadscrumbs */
+  nav {
+    .breadcrumb {
+      font-size: $font-size-small-lg * 0.85;
+    }
+  }
+  /* Social Media */
+  .social-media-container {
+    .social-name-text {
+      font-size: $font-size-base-lg * 0.8;
+    }
+    .social-name-item {
+      .social-name-link {
+        .social-name-icon {
+          font-size: $font-size-brand-lg;
+        }
+      }
+    }
+  }
+} /*End of Media Queries - Large devices --------------- */
+/*********************************************************/
+/*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
+@media (min-width: $media-breakpoint-xl) {
+  /* Navbar */
+  .navbar {
+    .navbar-nav {
+      .nav-item {
+        .nav-link{
+          font-size: $font-size-base-xl * 0.85;
+        }
+      }
+      .dropdown-menu {
+        font-size: $font-size-base-sm * 0.85;
+      }
+    }
+  }
+  /* Breadscrumbs */
+  nav {
+    .breadcrumb {
+      font-size: $font-size-small-xl * 0.85;
+    }
+  }
+  /* Social Media */
+  .social-media-container {
+    .social-name-text {
+      font-size: $font-size-base-xl * 0.8;
+    }
+    .social-name-item {
+      .social-name-link {
+        .social-name-icon {
+          font-size: $font-size-brand-xl;
+        }
+      }
+    }
+  }
+} /* End of Media Queries - Extra large devices -Non-Retina Screens -- */

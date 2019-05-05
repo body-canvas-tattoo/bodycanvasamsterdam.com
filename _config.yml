@@ -1,0 +1,113 @@
+# ------------------------------------------------------
+# CONFIGURATIONS
+
+# Head Meta Configs
+title: Vinnie Caldas — Body Canvas Tattoo
+description: > # this means to ignore newlines until "baseurl:"
+  xxx
+baseurl: ""
+url: "http://bodycanvasamsterdam.com"
+port: "8010"
+author: MariaCoding
+relative_permalinks: false # Jekyll defaults to using absolute permalinks instead of relative permalinks
+repository: BodyCanvas/bodycanvas.github.io
+
+
+# Build settings
+safe: true # will be allowed on Github Pages
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-paginate
+
+exclude:
+  - README.md
+  - LICENSE
+  - serve.sh
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# SASS settings
+sass:
+  sass_dir: assets
+  style: compressed
+
+
+# Settings for analytics
+analytics:
+  provider: google # Set 'provider' to the analytics provider you want to use. Set 'provider' to false to turn analytics off globally.
+  google:
+      tracking_id: 'xxxx'
+  getclicky:
+    site_id:
+
+# ------------------------------------------------------
+# CONTACTS
+# Website Author Contacts
+authorweb: http://mariacoding.com/
+authoremail: bodycanvas@mariacoding.com
+
+#  Project Owner Contacts
+contact-data:
+  phone: "+31 6 27164147"
+  email: BodyCanvasAmsterdam@gmail.com
+  email-subject: Contact20%from20%Body20%Canvas-20%Website
+
+# Map
+map:
+    zoom: 16
+    address: Lil' Amsterdam Passage of the Central Station
+    lat: 52.378665
+    longitude: 4.900952
+    address_details: /assets/images/sm/logo.jpg
+
+
+# ------------------------------------------------------
+# OTHER CONFIGURATIONS: Default Scope definitions
+collections:
+  coll_portfolio:
+    output: true
+    layout: images-gallery
+  coll_drawings:
+    output: true
+    layout: images-gallery
+  coll_resume:
+    output: true
+    layout: resume-pg
+  coll_world:
+    output: true
+    layout: images-gallery
+
+# Pages Configs
+include: ['_pages', '_collections']
+relative_permalinks: false
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      lang: "en"
+      lang_baseurl: "/"
+      lang_url: "http://bodycanvasamsterdam.com"
+
+  # For all DRAFTS
+  # ----------------------------------------------------
+  -
+    scope:
+      path: "_drafts"
+      type: "drafts"
+    values: # Write this layout on the front-matter
+      layout: "default"
+      draft: true # Will not be randerized to the folder _site

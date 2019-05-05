@@ -1,0 +1,18 @@
+<h1 class="site-title">{{ site.title }}</h1>
+<div class="d-flex flex-row flex-md-column justify-content-between justify-content-md-center align-items-start align-items-md-center">
+  <!-- Social Media icons -->
+  <div class="social-media-container">
+    {% include _components/social-media-icons.html %}
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler ml-auto justify-content-end" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon self-align-center"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-md-around" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        {% include _components/navbar-tabs.html %}
+      </ul>
+    </div>
+  </nav>
+</div>
