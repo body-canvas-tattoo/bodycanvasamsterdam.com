@@ -4,22 +4,18 @@ vinnie-caldas:
 -
   img-file: vinnie-tattoo-portfolio-color.jpg
   description: Geometric with a spash of color
-  tattoo-styles: ["geometric", "watercolor"]
 
 -
   img-file: vinnie-tattoo-portfolio-portrait-1.jpeg
   description: Girl portrait with a rose, a clock and a skull
-  tattoo-styles: ["portrait", "black&grey", "biomechanical", "surrealistic"]
 
 -
   img-file: vinnie-tattoo-portfolio-buda.jpeg
   description: Buda portrait with a flower
-  tattoo-styles: ["portrait", "black&grey"]
 
 -
   img-file: vinnie-tattoo-portfolio-skull-1.jpeg
-  description: skult tatto
-  tattoo-styles: ["traditional", "black&grey"]
+  description: skult tatt
 
 -
   img-file: vinnie-tattoo-portfolio-mandala-flower.jpeg
@@ -29,28 +25,22 @@ vinnie-caldas:
 -
   img-file: vinnie-tattoo-portfolio-clockandeye.jpg
   description: clock with an eye
-  tattoo-styles: ["biomechanical", "realistic", "black&grey", "surrealistic"]
 
 -
   img-file: vinnie-tattoo-portfolio-portrait-2.jpeg
-  description: Woman with a lion with feathers
-  tattoo-styles: ["portrait", "black&grey", "realistic", "surrealistic"]
+  description: Woman with a lion with feather
 
 -
   img-file: vinnie-tattoo-portfolio-owl.jpeg
   description: Owl with blue eyes
-  tattoo-styles: ["traditional", "realistic"]
 
 -
   img-file: vinnie-tattoo-portfolio-soldier.jpeg
   description: Roman soldier
-  tattoo-styles: ["traditional", "black&grey"]
-  artist: Vinnie Caldas
 
 -
   img-file: vinnie-tattoo-portfolio-skull-2.jpeg
   description: skult in a frame
-  tattoo-styles: ["traditional", "black&grey"]
 
 -
   img-file: vinnie-tattoo-portfolio-chest-roses.jpeg
@@ -66,14 +56,11 @@ saulo-brandao:
 -
   img-file: saulo-tattoo-portfolio-portrait-dali.jpeg
   description: Dali's portrait
-  tattoo-styles: ["portrait", "black&grey", "realistic"]
 
 -
   img-file: saulo-tattoo-portfolio-portrait-einstein.jpeg
   description: Albert Einstein's portrait
-  tattoo-styles: ["portrait", "black&grey", "realistic"]
 
 -
   img-file: saulo-tattoo-portfolio-tribal.jpeg
   description: Tribal tatto
-  tattoo-styles: ["traditional", "blackwork"]
