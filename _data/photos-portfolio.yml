@@ -52,6 +52,15 @@ vinnie-caldas:
   description: skult in a frame
   tattoo-styles: ["traditional", "black&grey"]
 
+-
+  img-file: vinnie-tattoo-portfolio-chest-roses.jpeg
+  description: Chest with roses
+
+-
+  img-file: vinnie-tattoo-portfolio-mandala-flower-leg.jpeg
+  description: Mandala in the leg
+
+
 # ----------------------
 saulo-brandao:
 -
