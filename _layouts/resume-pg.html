@@ -7,17 +7,22 @@ layout: default
     <p class="lead">Tattoo Artist</p>
 
     <div class="row d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-center align-items-md-start">
-      <div class="col-12 col-md-8">
-        <hr class="vertical-line">
+      <div class="col-12 col-md-7">
         {{ content }}
       </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-5">
         <!-- Gallery of photos -->
-        <div class="gallery d-flex flex-row flex-wrap justify-content-center">
-        <!-- Only tattoos photos from [page.artist] -->
+        <span class="small mute text-center">Click the images to enlarge</span>
+        <div class="gallery d-flex flex-wrap justify-content-center align-items-center">
         {% assign photos = site.data.photos-resume %}
           {% for photo in photos %}
-            {% include _components/imgs-gallery.html %}
+          <div class="img-gallery">
+            <div class="img-container">
+              <a class="img-inside" href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/{{ page.img-folder }}/original/{{ photo.img-file }}" alt="{{ photo.description }}">
+                <img class="" src="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/{{ page.img-folder }}/sm/{{ photo.img-file }}" alt="{{ photo.description }}">
+              </a>
+            </div>
+          </div>
           {% endfor %}
         </div>
       </div>

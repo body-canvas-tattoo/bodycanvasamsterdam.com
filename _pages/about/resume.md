@@ -5,10 +5,12 @@ layout: resume-pg
 permalink: /about/resume-cv/
 ---
 ### Current Spot
-[BodyCult](http://www.bodycult.nl/). Amsterdam and Utrecht, Netherlands.
-Since November 2018.
+[BodyCanvas](http://www.bodycanvasamsterdam.com/). Amsterdam, Netherlands.
+Since May 2019.
 
 ### Previous Collaborations
+[BodyCult](http://www.bodycult.nl/). Amsterdam and Utrecht, Netherlands.
+Since November 2018.
 
 [The Wicked Crow](https://www.facebook.com/thewickedcrowtattoo/). The Hague, Netherlands.
 August - October 2018.

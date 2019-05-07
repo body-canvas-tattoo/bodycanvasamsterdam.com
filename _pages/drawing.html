@@ -5,11 +5,12 @@ layout: default
 permalink: /drawing-digital/
 ---
 <div class="container">
-  <div class="container-fluid">
+  <div>
     <h2>Vinnie's drawings</h2>
     <p class="lead">Tattoo Artist</p>
   </div>
-
+  <!-- Gallery of photos -->
+  <span class="small mute text-center">Click the images to enlarge</span>
   <div class="gallery d-flex flex-row flex-wrap justify-content-center">
   {% assign photos = site.data.photos-drawings %}
     {% for photo in photos %}

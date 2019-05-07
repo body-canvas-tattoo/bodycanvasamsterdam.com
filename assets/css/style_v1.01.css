@@ -560,6 +560,11 @@ nav .breadcrumb {
   -moz-border-radius: 0.3rem;
   -ms-border-radius: 0.3rem;
   border-radius: 0.3rem; }
+  .map .map-overlayer {
+    background-image: url("../images/overlayer.png");
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center; }
 
 .about-img {
   margin: 0;
@@ -576,6 +581,23 @@ nav .breadcrumb {
   max-height: 120vw;
   position: relative; }
   .about-img .photo-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 6rem;
+    height: 3rem; }
+
+.consent-form-img {
+  background-image: url("../images/sm/vinnie-caldas-tattoo-artist-working.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 550px;
+  height: 302px;
+  max-width: 80%;
+  max-width: 80vw;
+  max-height: 120vw; }
+  .consent-form-img .photo-credit {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -651,7 +673,10 @@ nav .breadcrumb {
 
   .jumbotron .jumbotrom-img {
     width: 1199px;
-    height: 479.6px; } }
+    height: 479.6px; }
+
+  .consent-form-img {
+    float: right; } }
 /*End of Media Queries - Large devices --------------- */
 /*********************************************************/
 /*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */

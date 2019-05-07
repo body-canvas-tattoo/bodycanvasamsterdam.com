@@ -4,14 +4,16 @@ subtitle: "PAGE NOT FOUND"
 layout: default
 permalink: /404.html
 ---
-<div class="container">
+<div class="container text-center">
   <h2>{{ page.title}}</h2>
   <p class="lead">{{ page.subtitle}}</p>
-  <!-- Brand -->
-  <a href="{{ site.baseurl }}/" class="logo text-center flex-basis-4 order-1 order-md-0">
-    <h2 class="sr-only">{{ site.title }}</h2>
-  </a>
 
+  <!-- Brand -->
+  <div class="logo">
+    <h2 class="sr-only">{{ site.title }}</h2>
+  </div>
+
+  <!-- 404 error text -->
   <p>Sorry, the page requested can't be found...</p>
 
   <p>Check if you typed the address correctly or if you used an outdated link or

@@ -8,12 +8,16 @@
       {% endif %}
     </a>
     {% for tattoo-style in tattoo-styles %}
-    <a {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style }}" %} class="tattoo-styles-btn active btn" {% else %} class="tattoo-styles-btn btn" {% endif %}  href="{{ site.baseurl}}/portfolio/tattoo-styles/{{ tattoo-style.style }}">{{ tattoo-style.style }}
-      {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style }}" %}
+
+    {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style }}/" %}
+    <span >(current)</span>
+    {% endif %}
+
+    <a {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style | downcase }}/" %} class="tattoo-styles-btn active btn" {% else %} class="tattoo-styles-btn btn" {% endif %}  href="{{ site.baseurl}}/portfolio/tattoo-styles/{{ tattoo-style.style }}/">{{ tattoo-style.style }}
+      {% if page.permalink == "/portfolio/tattoo-styles/{{ tattoo-style.style | downcase }}/" %}
       <span class="sr-only">(current)</span>
       {% endif %}
     </a>
     {% endfor %}
   </div>
-  <span class="small mute">Click the images to enlarge</span>
 </div>
