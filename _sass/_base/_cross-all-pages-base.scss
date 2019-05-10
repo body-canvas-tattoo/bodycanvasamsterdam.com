@@ -79,6 +79,10 @@ footer {
   -webkit-flex-basis: 100%; /* Safari 6.1+ */
   flex-basis: 100%;
 }
+.flex-basis-2 {
+  -webkit-flex-basis: 100%; /* Safari 6.1+ */
+  flex-basis: 100%;
+}
 .flex-basis-3 {
   -webkit-flex-basis: 100%; /* Safari 6.1+ */
   flex-basis: 100%;
@@ -111,7 +115,7 @@ footer {
    footer {
      font-size: $font-size-small-md;
    }
-   .flex-basis-3 {
+   .flex-basis-2 {
      -webkit-flex-basis: 50%; /* Safari 6.1+ */
      flex-basis: 50%;
    }
@@ -140,6 +144,10 @@ footer {
    }
    footer {
      font-size: $font-size-small-xl;
+   }
+   .flex-basis-2 {
+     -webkit-flex-basis: 50%; /* Safari 6.1+ */
+     flex-basis: 50%;
    }
    .flex-basis-3 {
      -webkit-flex-basis: 33%; /* Safari 6.1+ */

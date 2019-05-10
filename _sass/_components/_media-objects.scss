@@ -51,6 +51,32 @@
       background-position: center;
   }
 }
+.address-photos {
+  width: 545px;
+  height: 367px;
+  max-width: 80%;
+  max-width: 80vw;
+  max-height: 80vw * 1.5;
+}
+.front-store {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/sm/body-canvas-front-store.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.plant-3d {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/sm/lil-amsterdam-central-station-plant.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+}
 .about-img {
   margin: 0;
   padding: 0;

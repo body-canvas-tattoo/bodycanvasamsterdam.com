@@ -241,6 +241,11 @@ footer {
   /* Safari 6.1+ */
   flex-basis: 100%; }
 
+.flex-basis-2 {
+  -webkit-flex-basis: 100%;
+  /* Safari 6.1+ */
+  flex-basis: 100%; }
+
 .flex-basis-3 {
   -webkit-flex-basis: 100%;
   /* Safari 6.1+ */
@@ -274,7 +279,7 @@ footer {
   footer {
     font-size: 0.7em; }
 
-  .flex-basis-3 {
+  .flex-basis-2 {
     -webkit-flex-basis: 50%;
     /* Safari 6.1+ */
     flex-basis: 50%; }
@@ -303,6 +308,11 @@ footer {
 
   footer {
     font-size: 0.8em; }
+
+  .flex-basis-2 {
+    -webkit-flex-basis: 50%;
+    /* Safari 6.1+ */
+    flex-basis: 50%; }
 
   .flex-basis-3 {
     -webkit-flex-basis: 33%;
@@ -565,6 +575,32 @@ nav .breadcrumb {
     background-repeat: repeat;
     background-size: contain;
     background-position: center; }
+
+.address-photos {
+  width: 545px;
+  height: 367px;
+  max-width: 80%;
+  max-width: 80vw;
+  max-height: 120vw; }
+
+.front-store {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/sm/body-canvas-front-store.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
+  opacity: 0.9; }
+
+.plant-3d {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/sm/lil-amsterdam-central-station-plant.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none; }
 
 .about-img {
   margin: 0;
