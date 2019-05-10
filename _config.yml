@@ -71,6 +71,11 @@ map:
     longitude: 4.900952
     address_details: /assets/images/sm/logo.jpg
 
+# ------------------------------------------------------
+# OTHER CONFIGURATIONS: Default Scope definitions
+collections:
+  tattoo-artists:
+    output: true
 
 # ------------------------------------------------------
 # Pages Configs

@@ -12,7 +12,11 @@ permalink: /portfolio/
       <p class="lead">Tattoo Artist</p>
     </div>
     <!-- List of the guest artista portfolio -->
-    {% include _components/guest-artists-portfolio.html %}
+    <div class="container-fluid guest-artists align-self-end text-right">
+      <p class="guest-text small">Guest artists'portfolio:</p>
+      <a class="guest-btn btn btn-primary" href="{{ site.baseurl }}/portfolio/portfolio-guest-artists">Click here</a>
+      <br>
+    </div>
   </div>
 
   <!-- Gallery of photos -->
@@ -21,7 +25,7 @@ permalink: /portfolio/
   <!-- Only tattoos photos from [page.artist] -->
   {% assign photos = site.data.photos-portfolio[page.artist] %}
     {% for photo in photos %}
-      {% include _components/imgs-gallery.html %}
+      {% include _components/imgs-gallery-vinnie-caldas.html %}
     {% endfor %}
   </div>
 </div>

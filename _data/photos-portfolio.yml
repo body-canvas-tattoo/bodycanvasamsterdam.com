@@ -50,17 +50,23 @@ vinnie-caldas:
   img-file: vinnie-tattoo-portfolio-mandala-flower-leg.jpeg
   description: Mandala in the leg
 
-
 # ----------------------
 saulo-brandao:
 -
   img-file: saulo-tattoo-portfolio-portrait-dali.jpeg
   description: Dali's portrait
-
 -
   img-file: saulo-tattoo-portfolio-portrait-einstein.jpeg
   description: Albert Einstein's portrait
-
 -
   img-file: saulo-tattoo-portfolio-tribal.jpeg
   description: Tribal tatto
+
+# ----------------------
+toni-caputo:
+-
+  img-file: toni-tattoo-portfolio-arm-band-mandala.png
+  description: Arm band mandala tattoo
+-
+  img-file: toni-tattoo-portfolio-hand-rose.png
+  description: Hand rose tattoo
