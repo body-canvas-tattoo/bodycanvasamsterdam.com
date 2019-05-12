@@ -117,6 +117,17 @@
     height: 3rem;
   }
 }
+.after-care-img {
+  background-image: url("../images/sm/body-canvas-tattoo-after-care.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 550px;
+  height: 307px;
+  max-width: 80%;
+  max-width: 80vw;
+  max-height: 80vw * 1.5;
+}
 .gallery {
   background-color: $light-grey;
   min-height: 45vh !important;
@@ -199,6 +210,14 @@
   }
   .consent-form-img {
     float: right;
+    background-image: url("../images/lg/vinnie-caldas-tattoo-artist-working.jpg");
+    width: 750px;
+    height: 412px;
+  }
+  .after-care-img {
+    background-image: url("../images/lg/body-canvas-tattoo-after-care.jpg");
+    width: 750px;
+    height: 422px;
   }
 } /*End of Media Queries - Large devices --------------- */
 /*********************************************************/

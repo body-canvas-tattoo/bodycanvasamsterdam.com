@@ -47,14 +47,6 @@
           {% endif %}
         </a>
       </li>
-      <!-- Tattoo information page -->
-      <li {% if page.permalink == "/tattoo-information/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-        <a class="nav-link" href="{{ site.baseurl }}/tattoo-information/">Tattoo Info
-          {% if page.permalink == "/tattoo-information/" %}
-          <span class="sr-only">(current)</span>
-          {% endif %}
-        </a>
-      </li>
       <!-- Drawing & Digital page -->
       <li {% if page.permalink == "/drawing-digital/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
         <a class="nav-link" href="{{ site.baseurl }}/drawing-digital/">Drawing
@@ -63,6 +55,14 @@
           {% endif %}
         </a>
       </li>
+      <!-- Tattoo information page -->
+      <li {% if page.permalink == "/tattoo-information/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+        <a class="nav-link" href="{{ site.baseurl }}/tattoo-information/">Tattoo Info
+          {% if page.permalink == "/tattoo-information/" %}
+          <span class="sr-only">(current)</span>
+          {% endif %}
+        </a>
+      </li>      
       <!-- Around the world page -->
       <li {% if page.permalink == "/around-the-world/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
         <a class="nav-link" href="{{ site.baseurl }}/around-the-world/">Around the world
