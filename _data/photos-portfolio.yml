@@ -105,13 +105,13 @@ vinnie-caldas:
 # ----------------------
 saulo-brandao:
 -
-  img-file: saulo-tattoo-portfolio-portrait-dali.jpg
+  img-file: saulo-tattoo-portfolio-portrait-dali.jpeg
   description: Dali's portrait
 -
-  img-file: saulo-tattoo-portfolio-portrait-einstein.jpg
+  img-file: saulo-tattoo-portfolio-portrait-einstein.jpeg
   description: Albert Einstein's portrait
 -
-  img-file: saulo-tattoo-portfolio-tribal.jpg
+  img-file: saulo-tattoo-portfolio-tribal.jpeg
   description: Tribal tatto
 
 # ----------------------
