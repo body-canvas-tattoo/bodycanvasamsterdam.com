@@ -2,53 +2,105 @@
 # ----------------------
 vinnie-caldas:
 -
-  img-file: vinnie-tattoo-portfolio-color.jpg
-  description: Geometric with a spash of color
+  img-file: vinnie-tattoo-portfolio-1-skull.jpg
+  description: Black and grey Skull
 
 -
-  img-file: vinnie-tattoo-portfolio-portrait-1.jpeg
-  description: Girl portrait with a rose, a clock and a skull
+  img-file: vinnie-tattoo-portfolio-2-girl-portrait-rose.jpeg
+  description: Girl portrait with rose and a skull
 
 -
-  img-file: vinnie-tattoo-portfolio-buda.jpeg
-  description: Buda portrait with a flower
+  img-file: vinnie-tattoo-portfolio-3-buddha.jpeg
+  description: Buddha with lotus flower
 
 -
-  img-file: vinnie-tattoo-portfolio-skull-1.jpeg
-  description: skult tatt
+  img-file: vinnie-tattoo-portfolio-4-clock-eye.jpeg
+  description: Black and grey clock and eye
 
 -
-  img-file: vinnie-tattoo-portfolio-mandala-flower.jpeg
-  description: Mandala flower with a spash of color
-  tattoo-styles: ["mandala", "watercolor"]
+  img-file: vinnie-tattoo-portfolio-5-girl-wolf.jpeg
+  description: Black and grey girl portrait with wolf
 
 -
-  img-file: vinnie-tattoo-portfolio-clockandeye.jpg
-  description: clock with an eye
+  img-file: vinnie-tattoo-portfolio-6-knight.jpg
+  description: Black and grey knight
 
 -
-  img-file: vinnie-tattoo-portfolio-portrait-2.jpeg
-  description: Woman with a lion with feather
+  img-file: vinnie-tattoo-portfolio-7-seed-of-life-watercolor.jpeg
+  description: Seed of life watercolour
 
 -
-  img-file: vinnie-tattoo-portfolio-owl.jpeg
-  description: Owl with blue eyes
+  img-file: vinnie-tattoo-portfolio-8-biomech.jpeg
+  description: Black and grey biomech
 
 -
-  img-file: vinnie-tattoo-portfolio-soldier.jpeg
-  description: Roman soldier
+  img-file: vinnie-tattoo-portfolio-9-skull.jpeg
+  description: Black and grey skull with frame
 
 -
-  img-file: vinnie-tattoo-portfolio-skull-2.jpeg
-  description: skult in a frame
+  img-file: vinnie-tattoo-portfolio-10-portrait-lion.jpeg
+  description: Girl portrait with lion
 
 -
-  img-file: vinnie-tattoo-portfolio-chest-roses.jpeg
+  img-file: vinnie-tattoo-portfolio-11-chest-roses.jpeg
   description: Chest with roses
 
 -
-  img-file: vinnie-tattoo-portfolio-mandala-flower-leg.jpeg
-  description: Mandala in the leg
+  img-file: vinnie-tattoo-portfolio-12-clock.jpeg
+  description: Clock  
+
+-
+  img-file: vinnie-tattoo-portfolio-13-colour-innerchild.jpeg
+  description: Colour inner child
+
+-
+  img-file: vinnie-tattoo-portfolio-14-hummingbird.jpeg
+  description: Colour hummingbird
+
+-
+  img-file: vinnie-tattoo-portfolio-15-parrots.jpeg
+  description: Colour parrots
+
+-
+  img-file: vinnie-tattoo-portfolio-16-girl.jpeg
+  description: Girl and flowers
+
+-
+  img-file: vinnie-tattoo-portfolio-17-tiger-eyes.jpeg
+  description: Tiger Eyes
+
+-
+  img-file: vinnie-tattoo-portfolio-18-owl.jpeg
+  description: Owl
+
+-
+  img-file: vinnie-tattoo-portfolio-19-lion.jpeg
+  description: lion
+
+-
+  img-file: vinnie-tattoo-portfolio-20-mandala-flower.jpeg
+  description: Mandala
+
+-
+  img-file: vinnie-tattoo-portfolio-21-rose-butterflies.jpeg
+  description: Rose and butterflies
+
+-
+  img-file: vinnie-tattoo-portfolio-22-mandala.jpeg
+  description: Mandala
+
+-
+  img-file: vinnie-tattoo-portfolio-23-mandala-flower-leg.jpeg
+  description: Mandala
+
+-
+  img-file: vinnie-tattoo-portfolio-24-skull-roses.jpeg
+  description: Skull roses
+
+-
+  img-file: vinnie-tattoo-portfolio-25-skull-flowers.jpeg
+  description: Skull flowers
+
 
 # ----------------------
 saulo-brandao:
