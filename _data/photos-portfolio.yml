@@ -47,7 +47,7 @@ vinnie-caldas:
 
 -
   img-file: vinnie-tattoo-portfolio-12-clock.jpg
-  description: Clock  
+  description: Clock
 
 -
   img-file: vinnie-tattoo-portfolio-13-colour-innerchild.jpg
@@ -122,3 +122,9 @@ toni-caputo:
 -
   img-file: toni-tattoo-portfolio-hand-rose.png
   description: Hand rose tattoo
+
+# ----------------------
+marron-joao-lemos:
+-
+  img-file: marron-tattoo-portfolio-1-general.jpg
+  description: General portfolio image
