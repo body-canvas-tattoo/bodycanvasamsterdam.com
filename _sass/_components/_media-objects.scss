@@ -136,18 +136,19 @@
     max-height:  280px;
     overflow: hidden;
     .img-container {
-      width: 280px;
+      width: 100%;
+      max-width: 280px;
       height: inherit;
       margin: 0 auto;
       margin-top: 0.5em;
       margin-bottom: 0.5em;
       overflow: hidden;
       @include border-radius(0.2rem);
-      object-fit: cover;
+      object-fit: fit;
       .img-inside {
         margin: 0 auto;
-        overflow: hidden;
-        object-fit: cover;
+        //overflow: hidden;
+        object-fit: fit;
 
       }
     }
