@@ -1,7 +1,7 @@
 <!-- Home page -->
 <li {% if page.permalink == "/" or page.permalink == "{{ site.baseurl }}" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
   <a class="nav-link" href="{{ site.baseurl }}/">Home
-    {% if page.permalink == "/" or page.permalink == "" %}
+    {% if page.permalink == "/" or page.permalink == "{{ site.baseurl }}" %}
     <span class="sr-only">(current)</span>
     {% endif %}
   </a>
@@ -25,9 +25,9 @@
   </div>
 </li>
 <!-- Portfolio page -->
-<li {% if page.permalink == "/portfolio/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-  <a class="nav-link" href="{{ site.baseurl }}/portfolio/">Tattoo Portfolio
-    {% if page.permalink == "/portfolio/" %}
+<li {% if page.permalink == "/portfolios/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+  <a class="nav-link" href="{{ site.baseurl }}/portfolios/">Tattoo Portfolios
+    {% if page.permalink == "/portfolios/" %}
     <span class="sr-only">(current)</span>
     {% endif %}
   </a>
@@ -62,6 +62,14 @@
 <li {% if page.permalink == "/around-the-world/" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
   <a class="nav-link" href="{{ site.baseurl }}/around-the-world/">Around the world
     {% if page.permalink == "/around-the-world/" %}
+    <span class="sr-only">(current)</span>
+    {% endif %}
+  </a>
+</li>
+<!-- Contact page -->
+<li {% if page.permalink == "/#contact" or page.permalink == "{{ site.baseurl }}#contact" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+  <a class="nav-link" href="{{ site.baseurl }}/#contact">Contact
+    {% if page.permalink == "/#contact" or page.permalink == "{{ site.baseurl }}/#contact" %}
     <span class="sr-only">(current)</span>
     {% endif %}
   </a>

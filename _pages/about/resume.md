@@ -15,7 +15,7 @@ Since November 2018.
 [The Wicked Crow](https://www.facebook.com/thewickedcrowtattoo/). The Hague, Netherlands.
 August - October 2018.
 
-#### Seminar
+#### Seminars
 [Global Tattoo Mag](https://www.globaltattoomag.com/seminar-seminario/). Lörrach, Germany.
 September, 2018.
 International Collective: 16 hours of techniques, live and direct tattooing with [Jay Freestyle](https://www.instagram.com/jayfreestyle/), Maksims Zotovs aka [Laky](https://www.instagram.com/laky_tattoo/), [Damian Gorski](https://www.instagram.com/gorskytattoos/), [Cristian Casas](https://www.instagram.com/kasasink/), [Robert Tufeanu](https://www.instagram.com/robert_tufeanu/), and [Tom Farrow](https://www.instagram.com/tomftattoo/).

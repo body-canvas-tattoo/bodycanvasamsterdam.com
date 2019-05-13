@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:8010/bodycanvas.github.io/tattoo-artists/saulo-brandao-bermuda.html</loc>
-<lastmod>2019-05-12T19:43:21+01:00</lastmod>
+<loc>http://localhost:8010/bodycanvas.github.io/tattoo-artists/2014-12-saulo-brandao-bermuda.html</loc>
+<lastmod>2019-05-13T01:46:49+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:8010/bodycanvas.github.io/tattoo-artists/saulo-brandao.html</loc>
-<lastmod>2019-05-12T19:43:21+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:8010/bodycanvas.github.io/tattoo-artists/toni-caputo.html</loc>
-<lastmod>2019-05-12T19:43:21+01:00</lastmod>
+<loc>http://localhost:8010/bodycanvas.github.io/tattoo-artists/2019-05-toni-caputo.html</loc>
+<lastmod>2019-05-13T01:46:49+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:8010/bodycanvas.github.io/about/</loc>
@@ -31,10 +27,10 @@
 <loc>http://localhost:8010/bodycanvas.github.io/</loc>
 </url>
 <url>
-<loc>http://localhost:8010/bodycanvas.github.io/portfolio/portfolio-guest-artists/</loc>
+<loc>http://localhost:8010/bodycanvas.github.io/portfolios/portfolios-guest-artists/</loc>
 </url>
 <url>
-<loc>http://localhost:8010/bodycanvas.github.io/portfolio/</loc>
+<loc>http://localhost:8010/bodycanvas.github.io/portfolios/</loc>
 </url>
 <url>
 <loc>http://localhost:8010/bodycanvas.github.io/about/resume-cv/</loc>

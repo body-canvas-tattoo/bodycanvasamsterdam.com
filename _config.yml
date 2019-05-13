@@ -3,8 +3,7 @@
 
 # Head Meta Configs
 title: Body Canvas Tattoo Amsterdam
-description: > # this means to ignore newlines until "baseurl:"
-  xxx
+description: Body Canvas Tattoo invites you to express your creativity using your body as a canvas. Tattoo ideas range from meaningful designs to beauty accessories on the body. We help translate your ideas into a unique and personal tattoo design.
 baseurl: "/bodycanvas.github.io" # CHANGE WHEN ADD THE CNAME"
 url: "http://bodycanvasamsterdam.com"
 port: "8010"
@@ -66,7 +65,8 @@ contact-data:
 # Map
 map:
     zoom: 16
-    address: Lil' Amsterdam Passage of the Central Station
+    address: Lil' Amsterdam Passage <u>inside</u> the Central Station
+    directions: Going into the station through the main entrance, the Lil' Amsterdam Passage is on the far right, under Starbucks
     lat: 52.378665
     longitude: 4.900952
     address_details: /assets/images/sm/logo.jpg
