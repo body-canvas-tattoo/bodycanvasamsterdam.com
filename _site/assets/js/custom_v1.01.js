@@ -16,10 +16,34 @@ var userFeed = new Instafeed({
   get: 'user',
   userId: '4483589266',
   accessToken:  '4483589266.1677ed0.d02758a8caa14999ba226d4716d70e3e',
-  resolution: 'standard_resolution',
-  template: '<div class="img-gallery col-md-6 col-lg-4 col-xl-3"><div class="img-container d-flex justify-content-center align-items-center"><a class="img-inside" href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a></div></div>',
+  resolution: 'low_resolution',
+  template: '<div class="img-gallery col-md-6 col-lg-4 col-xl-3"><div class="img-container d-flex justify-content-center align-items-center"><a class="img-inside" href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" alt="{{caption}}"/></a></div></div>',
   sortBy: 'most-recent',
-  limit: 12,
+  limit: 8,
   links: false
 });
 userFeed.run();
+
+// var liaFeed = new Instafeed({
+//   get: 'user',
+//   userId: '4483589266',
+//   accessToken:  '4483589266.1677ed0.d02758a8caa14999ba226d4716d70e3e',
+//   resolution: 'low_resolution',
+//   template: '<div class="img-gallery col-md-6 col-lg-4 col-xl-3"><div class="img-container d-flex justify-content-center align-items-center"><a class="img-inside" href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" alt="{{caption}}"/></a></div></div>',
+//   sortBy: 'most-recent',
+//   limit: 8,
+//   links: false
+// });
+// var mariaFeed = new Instafeed({
+//   get: 'user',
+//   userId: '687622594',
+//   accessToken:  '687622594.1677ed0.199e342cadb44b75b86f3a4f616d38c8',
+//   resolution: 'low_resolution',
+//   template: '<div class="img-gallery col-md-6 col-lg-4 col-xl-3"><div class="img-container d-flex justify-content-center align-items-center"><a class="img-inside" href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" alt="{{caption}}"/></a></div></div>',
+//   sortBy: 'most-recent',
+//   limit: 8,
+//   links: false
+// });
+//
+// liaFeed.run();
+// mariaFeed.run();
