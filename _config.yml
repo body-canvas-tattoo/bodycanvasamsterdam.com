@@ -4,7 +4,7 @@
 # Head Meta Configs
 title: Body Canvas Tattoo Amsterdam
 description: Body Canvas Tattoo invites you to express your creativity using your body as a canvas. Tattoo ideas range from meaningful designs to beauty accessories on the body. We help translate your ideas into a unique and personal tattoo design.
-baseurl: "/bodycanvas.github.io" # CHANGE WHEN ADD THE CNAME"
+baseurl: 
 url: "http://bodycanvasamsterdam.com"
 port: "8010"
 author: MariaCoding
