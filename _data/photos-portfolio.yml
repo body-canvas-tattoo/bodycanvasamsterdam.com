@@ -101,26 +101,34 @@ vinnie-caldas:
   img-file: vinnie-tattoo-portfolio-25-skull-flowers.JPG
   description: Skull flowers
 
-
 # ----------------------
 saulo-brandao:
 -
-  img-file: saulo-tattoo-portfolio-portrait-dali.jpeg
+  img-file: saulo-tattoo-portfolio-4-portrait-dali.jpeg
   description: Dali's portrait
 -
-  img-file: saulo-tattoo-portfolio-portrait-einstein.jpeg
+  img-file: saulo-tattoo-portfolio-3-portrait-einstein.jpeg
   description: Albert Einstein's portrait
 -
-  img-file: saulo-tattoo-portfolio-tribal.jpeg
+  img-file: saulo-tattoo-portfolio-2-tribal.jpeg
   description: Tribal tatto
+-
+  img-file: saulo-tattoo-portfolio-1-color-men-and-woman.jpeg
+  description: Color man and woman tatto
 
 # ----------------------
 toni-caputo:
 -
-  img-file: toni-tattoo-portfolio-arm-band-mandala.png
-  description: Arm band mandala tattoo
+  img-file: toni-tattoo-portfolio-4-mandala-back.jpg
+  description: back mandala tattoo
 -
-  img-file: toni-tattoo-portfolio-hand-rose.png
+  img-file: toni-tattoo-portfolio-3-mandala-arm.jpg
+  description: arm mandala tattoo
+-
+  img-file: toni-tattoo-portfolio-2-arm-heart.jpg
+  description: hand heart like a puppet tattoo
+-
+  img-file: toni-tattoo-portfolio-1-hand-rose.jpg
   description: Hand rose tattoo
 
 # ----------------------

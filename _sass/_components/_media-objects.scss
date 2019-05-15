@@ -130,7 +130,8 @@
 }
 .gallery {
   background-color: $light-grey;
-  min-height: 45vh !important;
+  padding-bottom: 0.5em;
+  min-height: 290px !important;
   .img-gallery {
     height: 280px;
     max-height:  280px;
