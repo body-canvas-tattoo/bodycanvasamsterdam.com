@@ -1,10 +1,6 @@
 -
-  img-file: vinnie-caldas-drawings-girl01.jpg
-  description: Girl's face
-
--
-  img-file: vinnie-caldas-drawings-girl02.png
-  description: Girl's face
+  img-file: vinnie-caldas-drawings-marley.jpg
+  description: Marley
 
 -
   img-file: vinnie-caldas-drawings-heart.jpg
@@ -15,5 +11,29 @@
   description: Man's face
 
 -
-  img-file: vinnie-caldas-drawings-marley.jpg
-  description: Marley
+  img-file: vinnie-caldas-drawings-girl01.jpg
+  description: Girl's face
+
+-
+  img-file: vinnie-caldas-drawings-girl02.png
+  description: Girl's face
+
+-
+  img-file: vinnie-caldas-drawings-girl03.jpg
+  description: Girl's face
+
+-
+  img-file: vinnie-caldas-drawings-eye-and-clock.jpg
+  description: eye and clock
+
+-
+  img-file: vinnie-caldas-drawings-girl-flowers.JPG
+  description: Girl with flowers
+
+-
+  img-file: vinnie-caldas-drawings-girl-portrait.JPG
+  description: Girl's portrait black and white
+
+-
+  img-file: vinnie-caldas-drawings-girl-colour.JPG
+  description: Girl's portrait color
