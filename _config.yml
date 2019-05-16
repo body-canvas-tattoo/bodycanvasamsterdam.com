@@ -3,13 +3,14 @@
 
 # Head Meta Configs
 title: Body Canvas Tattoo Amsterdam
+short_title: BodyCanvas
 description: Body Canvas Tattoo invites you to express your creativity using your body as a canvas. Tattoo ideas range from meaningful designs to beauty accessories on the body. We help translate your ideas into a unique and personal tattoo design.
 baseurl: ""
 url: "http://bodycanvasamsterdam.com"
 port: "8010"
 author: MariaCoding
 relative_permalinks: false # Jekyll defaults to using absolute permalinks instead of relative permalinks
-repository: body-canvas-tattoo/bodycanvas.github.io
+repository: body-canvas-tattoo/bodycanvasamsterdam.com
 
 
 # Build settings
