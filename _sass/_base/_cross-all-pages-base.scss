@@ -46,6 +46,8 @@ footer {
  box-sizing: border-box;
  font-size: $font-size-small-sm;
  .navbar {
+   max-width: 100%;
+   max-width: 95vw;
    .navbar-nav {
      .nav-item.active  {
        .nav-link {
@@ -70,7 +72,7 @@ footer {
         text-decoration: underline;
         margin-left: 0.2em;
       }
-      .copyright-link:hover {
+      .copyright-link:hover, .copyright-link:focus , .copyright-link:active  {
         color: $primary-color;
       }
     }

@@ -162,7 +162,8 @@
             opacity: 0;
           }
         }
-        .img-description:hover {
+        .img-description:hover, .img-description:focus, .img-description:active
+         {
           background-color: $black-rgba;
           .img-text {
             opacity: 1;

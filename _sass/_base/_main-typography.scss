@@ -12,7 +12,7 @@ h4 { font-size: $font-size-h4-xs; }
 
 p, span, a { font-size: $font-size-base-xs; font-family: $font-stack; }
 
-a, a:hover {color: $accent-color; }
+a, a:hover, a:focus, a:active {color: $accent-color; }
 
 .site-title {
   color: $black;

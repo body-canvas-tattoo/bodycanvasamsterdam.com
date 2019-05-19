@@ -43,10 +43,10 @@ h4 {
   font-size: 1.03em; }
 
 p, span, a {
-  font-size: 1.05em;
+  font-size: 1em;
   font-family: "Quattrocento Sans", sans-serif; }
 
-a, a:hover {
+a, a:hover, a:focus, a:active {
   color: #2EA88D; }
 
 .site-title {
@@ -92,7 +92,7 @@ hr, .vertical-line {
     font-size: 1.05em; }
 
   p, span, a {
-    font-size: 1.1em; }
+    font-size: 1.05em; }
 
   .site-title {
     font-size: 1.25em; }
@@ -203,7 +203,7 @@ body {
   box-sizing: border-box;
   color: #4e4e4e;
   font-family: "Quattrocento Sans", sans-serif;
-  font-size: 1.05em;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.5;
   background-color: #ffffff;
@@ -219,8 +219,11 @@ footer {
   padding-bottom: 0.5em;
   box-sizing: border-box;
   font-size: 0.73em; }
-  footer .navbar .navbar-nav .nav-item.active .nav-link {
-    color: #2EA88D; }
+  footer .navbar {
+    max-width: 100%;
+    max-width: 95vw; }
+    footer .navbar .navbar-nav .nav-item.active .nav-link {
+      color: #2EA88D; }
   footer .copyright .copyright-text {
     color: #b9b9b9;
     font-size: 0.72em;
@@ -234,7 +237,7 @@ footer {
       color: #2EA88D;
       text-decoration: underline;
       margin-left: 0.2em; }
-    footer .copyright .copyright-text .copyright-link:hover {
+    footer .copyright .copyright-text .copyright-link:hover, footer .copyright .copyright-text .copyright-link:focus, footer .copyright .copyright-text .copyright-link:active {
       color: #a88d2e; }
 
 .flex-basis-1 {
@@ -265,7 +268,7 @@ footer {
 @media (min-width: 544px) {
   body {
     max-width: 767px;
-    font-size: 1.1em; }
+    font-size: 1.05em; }
 
   footer {
     font-size: 0.73em; } }
@@ -380,7 +383,7 @@ footer {
       text-indent: 0;
       font-family: "Open Sans", sans-serif;
       text-transform: uppercase;
-      font-size: 0.7875em;
+      font-size: 0.75em;
       font-weight: 400;
       letter-spacing: .03em;
       text-align: right; }
@@ -390,20 +393,20 @@ footer {
         padding-right: 1em;
         margin: 0;
         color: #b9b9b9; }
-      .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus {
+      .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus, .navbar .navbar-nav .nav-item .nav-link:active {
         color: #a88d2e; }
       .navbar .navbar-nav .nav-item .dropdown-menu {
-        font-size: 0.8925em; }
+        font-size: 0.85em; }
         .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
           font-size: inherit;
           color: #b9b9b9; }
-        .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+        .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:focus, .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:active {
           color: #a88d2e;
           background-color: transparent; }
     .navbar .navbar-nav .nav-item.active .nav-link {
       color: #4e4e4e;
       font-weight: bold; }
-    .navbar .navbar-nav .nav-item.active:hover .nav-link, .navbar .navbar-nav .nav-item.active:focus .nav-link {
+    .navbar .navbar-nav .nav-item.active:hover .nav-link, .navbar .navbar-nav .nav-item.active:focus .nav-item.active:active .nav-link {
       color: #a88d2e; }
 
 /* Breadscrumbs */
@@ -435,7 +438,7 @@ nav .breadcrumb {
       .social-media-container .social-name-item .social-name-link .social-name-icon {
         padding: 0.1rem 0.25rem;
         font-size: 1.2em; }
-    .social-media-container .social-name-item .social-name-link:hover {
+    .social-media-container .social-name-item .social-name-link:hover, .social-media-container .social-name-item .social-name-link:focus, .social-media-container .social-name-item .social-name-link:active {
       color: #a88d2e; }
 
 /*********************************************************/
@@ -443,13 +446,13 @@ nav .breadcrumb {
 @media (min-width: 544px) {
   /* Navbar */
   .navbar .navbar-nav .nav-item .nav-link {
-    font-size: 0.935em; }
+    font-size: 0.8925em; }
   .navbar .navbar-nav .dropdown-menu {
-    font-size: 0.99em; }
+    font-size: 0.945em; }
 
   /* Social Media */
   .social-media-container .social-name-text {
-    font-size: 0.88em; }
+    font-size: 0.84em; }
   .social-media-container .social-name-item .social-name-link .social-name-icon {
     font-size: 1.25em; }
 
@@ -509,7 +512,7 @@ nav .breadcrumb {
   .navbar .navbar-nav .nav-item .nav-link {
     font-size: 0.884em; }
   .navbar .navbar-nav .dropdown-menu {
-    font-size: 0.935em; }
+    font-size: 0.8925em; }
 
   /* Breadscrumbs */
   nav .breadcrumb {
@@ -686,9 +689,9 @@ nav .breadcrumb {
           box-sizing: border-box; }
           .gallery .img-gallery .img-container .img-inside .img-description .img-text {
             opacity: 0; }
-        .gallery .img-gallery .img-container .img-inside .img-description:hover {
+        .gallery .img-gallery .img-container .img-inside .img-description:hover, .gallery .img-gallery .img-container .img-inside .img-description:focus, .gallery .img-gallery .img-container .img-inside .img-description:active {
           background-color: rgba(1, 1, 1, 0.5); }
-          .gallery .img-gallery .img-container .img-inside .img-description:hover .img-text {
+          .gallery .img-gallery .img-container .img-inside .img-description:hover .img-text, .gallery .img-gallery .img-container .img-inside .img-description:focus .img-text, .gallery .img-gallery .img-container .img-inside .img-description:active .img-text {
             opacity: 1;
             padding: 1em;
             color: rgba(255, 255, 255, 0.8);
@@ -817,11 +820,16 @@ nav .breadcrumb {
     font-family: "Open Sans", sans-serif;
     font-size: 0.576em;
     text-transform: uppercase;
+    margin: 0.1em; }
+  .guest-artists .guest-btn:first-child, .guest-artists .tattoo-styles-btn:first-child, .tattoo-styles .guest-btn:first-child, .tattoo-styles .tattoo-styles-btn:first-child {
     margin-left: 0.1em;
+    margin-right: 0; }
+  .guest-artists .guest-btn:last-child, .guest-artists .tattoo-styles-btn:last-child, .tattoo-styles .guest-btn:last-child, .tattoo-styles .tattoo-styles-btn:last-child {
+    margin-left: 0;
     margin-right: 0.1em; }
-  .guest-artists .guest-btn:hover, .guest-artists .guest-btn:focus,
-  .guest-artists .tattoo-styles-btn:hover, .guest-artists .tattoo-styles-btn:focus, .tattoo-styles .guest-btn:hover, .tattoo-styles .guest-btn:focus,
-  .tattoo-styles .tattoo-styles-btn:hover, .tattoo-styles .tattoo-styles-btn:focus {
+  .guest-artists .guest-btn:hover, .guest-artists .guest-btn:focus, .guest-artists .guest-btn:active,
+  .guest-artists .tattoo-styles-btn:hover, .guest-artists .tattoo-styles-btn:focus, .guest-artists .tattoo-styles-btn:active, .tattoo-styles .guest-btn:hover, .tattoo-styles .guest-btn:focus, .tattoo-styles .guest-btn:active,
+  .tattoo-styles .tattoo-styles-btn:hover, .tattoo-styles .tattoo-styles-btn:focus, .tattoo-styles .tattoo-styles-btn:active {
     background-color: #a88d2e;
     border-color: #a88d2e;
     color: #ffffff; }

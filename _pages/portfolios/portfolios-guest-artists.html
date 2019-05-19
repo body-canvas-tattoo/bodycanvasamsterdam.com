@@ -11,7 +11,7 @@ permalink: /portfolios/portfolios-guest-artists/
       <h2>{{ page.title }}</h2>
       <p class="lead">Check out the work of our collaborators</p>
       <!-- buttons for Coming soon, Here now, and Were here -->
-      <div class="container-fluid guest-artists align-self-start text-left">
+      <div class="guest-artists align-self-start text-left">
         <a class="guest-btn btn btn-primary" href="{{ site.baseurl }}/portfolios/portfolios-guest-artists/#hereNow">Here now</a>
         <a class="guest-btn btn btn-primary" href="{{ site.baseurl }}/portfolios/portfolios-guest-artists/#comingsoon">Coming soon</a>
         <a class="guest-btn btn btn-primary" href="{{ site.baseurl }}/portfolios/portfolios-guest-artists/#previousArtists">Previous artists</a>
@@ -23,16 +23,18 @@ permalink: /portfolios/portfolios-guest-artists/
       <br>
     </div>
   </div>
-  <div class="container-fluid d-flex flex-column justify-content-start align-itens-center m-3">
-    <!-- Book an appointment -->
-    <p class="small mute">If you'd like an appointment, call (
-      <a href="tel:{{ site.contact-data.phone }}">
-      {{ site.contact-data.phone }}
-      </a>)
-      , e-mail (
-      <a href="mailto:{{ site.contact-data.email }}?subject={{ site.contact-data.email-subject }}">   {{ site.contact-data.email }}
-    </a>)
-    or come by the shop</p>
+  <!-- Book an appointment -->
+  <div class="container-fluid d-flex flex-column justify-content-start align-itens-center small mute">
+    <span>
+    If you'd like an appointment, call
+    <a href="tel:{{ site.contact-data.phone }}">
+    ({{ site.contact-data.phone }})
+    </a>
+    , e-mail
+    <a href="mailto:{{ site.contact-data.email }}?subject={{ site.contact-data.email-subject }}">({{ site.contact-data.email }})
+    </a>
+    or come by the shop
+    </span>
   </div>
 
   <br>

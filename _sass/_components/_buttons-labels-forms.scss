@@ -12,11 +12,18 @@
     font-size: $font-size-small-xs * 0.8;
     //font-weight: bold;
     text-transform: uppercase;
+    margin: 0.1em;
+  }
+  .guest-btn:first-child, .tattoo-styles-btn:first-child {
     margin-left: 0.1em;
+    margin-right: 0;
+  }
+  .guest-btn:last-child, .tattoo-styles-btn:last-child {
+    margin-left: 0;
     margin-right: 0.1em;
   }
-  .guest-btn:hover, .guest-btn:focus,
-  .tattoo-styles-btn:hover, .tattoo-styles-btn:focus {
+  .guest-btn:hover, .guest-btn:focus, .guest-btn:active,
+  .tattoo-styles-btn:hover, .tattoo-styles-btn:focus, .tattoo-styles-btn:active {
     background-color: $primary-color;
     border-color: $primary-color;
     color: $white;

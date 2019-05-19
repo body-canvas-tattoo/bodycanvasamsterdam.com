@@ -15,14 +15,14 @@
   </div>
 
   <!-- Social Media icons -->
-  <div class="social-media-container">
+  <div class="social-media-container text-center">
     {% include _components/social-media-icons.html %}
   </div>
 
   <!--  Navbar -->
-  <nav class="navbar navbar-dark bg-dark d-flex flex-wrap">
+  <nav class="navbar navbar-dark bg-dark d-flex text-center">
     <!-- NavTabs-->
-    <ul class="navbar-nav d-flex flex-row justify-content-between align-items-center">
+    <ul class="navbar-nav d-flex flex-row justify-content-between align-items-center flex-wrap">
       <!-- Home page -->
       <li {% if page.permalink == "/" or page.permalink == "" %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
         <a class="nav-link" href="{{ site.baseurl }}/">Home

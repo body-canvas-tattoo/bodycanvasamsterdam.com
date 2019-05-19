@@ -49,7 +49,7 @@
         margin: 0;
         color: $grey;
       }
-      .nav-link:hover, .nav-link:focus {
+      .nav-link:hover, .nav-link:focus,  .nav-link:active {
         color: $primary-color;
       }
       .dropdown-menu {
@@ -58,7 +58,7 @@
           font-size: inherit;
           color: $grey;
         }
-        .dropdown-item:hover {
+        .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active  {
           color: $primary-color;
           background-color: transparent;
         }
@@ -70,7 +70,7 @@
         font-weight: bold;
         }
       }
-    .nav-item.active:hover, .nav-item.active:focus {
+    .nav-item.active:hover, .nav-item.active:focus  .nav-item.active:active {
       .nav-link {
         color: $primary-color;
       }
@@ -113,7 +113,7 @@ nav {
         font-size: $font-size-brand-xs;
       }
     }
-    .social-name-link:hover {
+    .social-name-link:hover, .social-name-link:focus, .social-name-link:active {
       color: $primary-color;
     }
   }
