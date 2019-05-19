@@ -178,7 +178,7 @@ Sitemap: http://localhost:8010/sitemap.xml
   </div>
 
   <!-- Social Media icons -->
-  <div class="social-media-container text-center">
+  <div class="social-media-container justify-content-center align-items-center text-center text-center">
       
   <ul class="social-media">
     <li class="social-name-item">
