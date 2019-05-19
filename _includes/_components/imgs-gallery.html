@@ -2,6 +2,13 @@
     <div class="img-container d-flex justify-content-center align-items-center">
       <a class="img-inside" href="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/{{ page.img-folder }}/original/{{ photo.img-file }}" alt="{{ photo.description }}">
         <img class="" src="{{ site.baseurl }}/{{ site.sass.sass_dir }}/images/{{ page.img-folder }}/sm/{{ photo.img-file }}" alt="{{ photo.description }}">
+        <div class="img-description d-flex justify-content-center align-items-center">
+          <div class="img-text">
+            {{ photo.description }}
+            <br>
+            <span class="small">(click to enlarge)</span>
+          </div>
+        </div>
       </a>
     </div>
   </div>

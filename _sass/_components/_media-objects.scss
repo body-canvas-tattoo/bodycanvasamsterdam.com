@@ -147,10 +147,41 @@
       @include border-radius(0.2rem);
       object-fit: fit;
       .img-inside {
+        position: relative;
         margin: 0 auto;
         //overflow: hidden;
         object-fit: fit;
-
+        .img-description {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          box-sizing: border-box;
+          .img-text {
+            opacity: 0;
+          }
+        }
+        .img-description:hover {
+          background-color: $black-rgba;
+          .img-text {
+            opacity: 1;
+            padding: 1em;
+            color: $white-rgba;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .img-container-cv-pg {
+      background-color: $light-grey-rgba;
+      .img-inside-cv-pg {
+        width: 280px;
+        height: 280px;
+        .img-description-cv-pg {
+          width: inherit;
+          height: inherit;
+        }
       }
     }
   }
