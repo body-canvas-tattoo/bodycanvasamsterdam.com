@@ -145,12 +145,12 @@
       margin-bottom: 0.5em;
       overflow: hidden;
       @include border-radius(0.2rem);
-      object-fit: fit;
+      object-fit: fill;
       .img-inside {
         position: relative;
         margin: 0 auto;
         //overflow: hidden;
-        object-fit: fit;
+        object-fit: fill;
         .img-description {
           position: absolute;
           top: 0;
