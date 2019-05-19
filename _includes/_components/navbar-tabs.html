@@ -8,10 +8,10 @@
 </li>
 <!-- About page -->
 <li {% if page.permalink == "/about/" %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
-  <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/about/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/about/" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     About
   </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <div class="dropdown-menu" aria-labelledby="aboutDropdown">
     <a class="dropdown-item" href="{{ site.baseurl }}/about/">About me
       {% if page.permalink == "/about/" %}
       <span class="sr-only">(current)</span>
@@ -42,10 +42,10 @@
 </li>
 <!-- Tattoo info page -->
 <li {% if page.permalink == "/tattoo-information/consent-form/" or page.permalink == "{{ site.baseurl }}/tattoo-information/after-care/"  %} class="nav-item dropdown active" {% else %} class="nav-item dropdown" {% endif %}>
-  <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/tattoo-information/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/tattoo-information/" id="infoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Tattoo information
   </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <div class="dropdown-menu" aria-labelledby="infoDropdown">
     <a class="dropdown-item" href="{{ site.baseurl }}/tattoo-information/consent-form/">Consent Form
       {% if page.permalink == "/tattoo-information/consent-form/" %}
       <span class="sr-only">(current)</span>
