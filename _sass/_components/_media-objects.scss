@@ -1,7 +1,7 @@
 /* Media Objects classes */
 .logo {
   margin: 0 auto;
-  background-image: url("../images/sm/logo.jpg");
+  background-image: url("../images/sm/logo.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -20,7 +20,7 @@
   background-color: transparent;
   //max-width: 100% !important;
   .jumbotrom-img {
-    background-image: url("../images/sm/vinnie-caldas-tattoo-artist-back.jpg");
+    background-image: url("../images/sm/vinnie-caldas-tattoo-artist-back.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -45,7 +45,7 @@
   border: 5px solid $light-grey;
   @include border-radius(0.3rem);
   .map-overlayer {
-      background-image: url("../images/overlayer.png");
+      background-image: url("../images/overlayer.jpeg");
       background-repeat: repeat;
       background-size: contain;
       background-position: center;
@@ -61,7 +61,7 @@
 .front-store {
   margin: 0;
   padding: 0;
-  background-image: url("../images/sm/body-canvas-front-store.jpg");
+  background-image: url("../images/sm/body-canvas-front-store.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -71,7 +71,7 @@
 .plant-3d {
   margin: 0;
   padding: 0;
-  background-image: url("../images/sm/lil-amsterdam-central-station-plant.png");
+  background-image: url("../images/sm/lil-amsterdam-central-station-plant.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -80,7 +80,7 @@
 .about-img {
   margin: 0;
   padding: 0;
-  background-image: url("../images/sm/vinnie-caldas-tattoo-artist-profile.jpg");
+  background-image: url("../images/sm/vinnie-caldas-tattoo-artist-profile.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -100,7 +100,7 @@
   }
 }
 .consent-form-img {
-  background-image: url("../images/sm/vinnie-caldas-tattoo-artist-working.jpg");
+  background-image: url("../images/sm/vinnie-caldas-tattoo-artist-working.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -118,7 +118,7 @@
   }
 }
 .after-care-img {
-  background-image: url("../images/sm/body-canvas-tattoo-after-care.jpg");
+  background-image: url("../images/sm/body-canvas-tattoo-after-care.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -209,7 +209,7 @@
 /*  Medium devices (tablets, 48em and up >=768px)------- */
 @media (min-width: $media-breakpoint-md) {
   .logo {
-    background-image: url("../images/lg/logo.jpg");
+    background-image: url("../images/lg/logo.jpeg");
     width: $body-max-width-md / 4;
     height: ($body-max-width-md / 4) * 0.933;
     max-width: 33vw;
@@ -218,7 +218,7 @@
   .jumbotron {
     margin-top: 1.5em;
     .jumbotrom-img {
-      background-image: url("../images/lg/vinnie-caldas-tattoo-artist-back.jpg");
+      background-image: url("../images/lg/vinnie-caldas-tattoo-artist-back.jpeg");
       width: $body-max-width-md;
       height: $body-max-width-md * 0.4;
     }
@@ -255,13 +255,13 @@
 /*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - Non-Retina Screens -- */
 @media (min-width: $media-breakpoint-xl) {
   .logo {
-    background-image: url("../images/xxl/logo.jpg");
+    background-image: url("../images/xxl/logo.jpeg");
     width: $body-max-width-xl / 4;
     height: ($body-max-width-xl / 4) * 0.933;
   }
   .jumbotron {
     .jumbotrom-img {
-      background-image: url("../images/xxl/vinnie-caldas-tattoo-artist-back.jpg");
+      background-image: url("../images/xxl/vinnie-caldas-tattoo-artist-back.jpeg");
       width: $body-max-width-xl;
       height: $body-max-width-xl * 0.4;
     }
@@ -271,11 +271,11 @@
 /*  Extra large devices (Extra large desktops, 75em and up ≥1200px) - RETINA Screens -- */
 @media (min-width: $media-breakpoint-xl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){
   .logo {
-    background-image: url("../images/original/logo.jpg");
+    background-image: url("../images/original/logo.jpeg");
   }
   .jumbotron {
     .jumbotrom-img {
-      background-image: url("../images/original/vinnie-caldas-tattoo-artist-back.jpg");
+      background-image: url("../images/original/vinnie-caldas-tattoo-artist-back.jpeg");
     }
   }
   .about-img {
@@ -304,11 +304,11 @@
 /*  2XL devices (XXL Larg desktops, 93.75 and up ≥1500px) - RETINA Screens -- */
 @media (min-width: $media-breakpoint-xxl) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){
   .logo {
-    background-image: url("../images/original/logo.jpg");
+    background-image: url("../images/original/logo.jpeg");
   }
   .jumbotron {
     .jumbotrom-img {
-      background-image: url("../images/original/vinnie-caldas-tattoo-artist-back.jpg");
+      background-image: url("../images/original/vinnie-caldas-tattoo-artist-back.jpeg");
     }
   }
 }/*End of Media Queries - Extra large devices - RETINA Screens -- */
