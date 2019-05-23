@@ -37,6 +37,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+include: ['.htaccess']
+
 # SASS settings
 sass:
   sass_dir: assets
